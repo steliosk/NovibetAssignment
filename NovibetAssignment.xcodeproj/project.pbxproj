@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD816D0C257177B100E1EDE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D0B257177B100E1EDE9 /* AppDelegate.swift */; };
+		FD816D0E257177B100E1EDE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D0D257177B100E1EDE9 /* SceneDelegate.swift */; };
+		FD816D10257177B100E1EDE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D0F257177B100E1EDE9 /* ViewController.swift */; };
+		FD816D13257177B100E1EDE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD816D11257177B100E1EDE9 /* Main.storyboard */; };
+		FD816D15257177B400E1EDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD816D14257177B400E1EDE9 /* Assets.xcassets */; };
+		FD816D18257177B400E1EDE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD816D16257177B400E1EDE9 /* LaunchScreen.storyboard */; };
+		FD816D23257177B400E1EDE9 /* NovibetAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D22257177B400E1EDE9 /* NovibetAssignmentTests.swift */; };
+		FD816D2E257177B400E1EDE9 /* NovibetAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D2D257177B400E1EDE9 /* NovibetAssignmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD816D1F257177B400E1EDE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD816D00257177B100E1EDE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD816D07257177B100E1EDE9;
+			remoteInfo = NovibetAssignment;
+		};
+		FD816D2A257177B400E1EDE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD816D00257177B100E1EDE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD816D07257177B100E1EDE9;
+			remoteInfo = NovibetAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD816D08257177B100E1EDE9 /* NovibetAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovibetAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD816D0B257177B100E1EDE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD816D0D257177B100E1EDE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD816D0F257177B100E1EDE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD816D12257177B100E1EDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD816D14257177B400E1EDE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD816D17257177B400E1EDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD816D19257177B400E1EDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD816D1E257177B400E1EDE9 /* NovibetAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovibetAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD816D22257177B400E1EDE9 /* NovibetAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovibetAssignmentTests.swift; sourceTree = "<group>"; };
+		FD816D24257177B400E1EDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD816D29257177B400E1EDE9 /* NovibetAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovibetAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD816D2D257177B400E1EDE9 /* NovibetAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovibetAssignmentUITests.swift; sourceTree = "<group>"; };
+		FD816D2F257177B400E1EDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD816D05257177B100E1EDE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD816D1B257177B400E1EDE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD816D26257177B400E1EDE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD816CFF257177B100E1EDE9 = {
+			isa = PBXGroup;
+			children = (
+				FD816D0A257177B100E1EDE9 /* NovibetAssignment */,
+				FD816D21257177B400E1EDE9 /* NovibetAssignmentTests */,
+				FD816D2C257177B400E1EDE9 /* NovibetAssignmentUITests */,
+				FD816D09257177B100E1EDE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD816D09257177B100E1EDE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD816D08257177B100E1EDE9 /* NovibetAssignment.app */,
+				FD816D1E257177B400E1EDE9 /* NovibetAssignmentTests.xctest */,
+				FD816D29257177B400E1EDE9 /* NovibetAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD816D0A257177B100E1EDE9 /* NovibetAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				FD816D0B257177B100E1EDE9 /* AppDelegate.swift */,
+				FD816D0D257177B100E1EDE9 /* SceneDelegate.swift */,
+				FD816D0F257177B100E1EDE9 /* ViewController.swift */,
+				FD816D11257177B100E1EDE9 /* Main.storyboard */,
+				FD816D14257177B400E1EDE9 /* Assets.xcassets */,
+				FD816D16257177B400E1EDE9 /* LaunchScreen.storyboard */,
+				FD816D19257177B400E1EDE9 /* Info.plist */,
+			);
+			path = NovibetAssignment;
+			sourceTree = "<group>";
+		};
+		FD816D21257177B400E1EDE9 /* NovibetAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD816D22257177B400E1EDE9 /* NovibetAssignmentTests.swift */,
+				FD816D24257177B400E1EDE9 /* Info.plist */,
+			);
+			path = NovibetAssignmentTests;
+			sourceTree = "<group>";
+		};
+		FD816D2C257177B400E1EDE9 /* NovibetAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD816D2D257177B400E1EDE9 /* NovibetAssignmentUITests.swift */,
+				FD816D2F257177B400E1EDE9 /* Info.plist */,
+			);
+			path = NovibetAssignmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD816D07257177B100E1EDE9 /* NovibetAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD816D32257177B400E1EDE9 /* Build configuration list for PBXNativeTarget "NovibetAssignment" */;
+			buildPhases = (
+				FD816D04257177B100E1EDE9 /* Sources */,
+				FD816D05257177B100E1EDE9 /* Frameworks */,
+				FD816D06257177B100E1EDE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NovibetAssignment;
+			productName = NovibetAssignment;
+			productReference = FD816D08257177B100E1EDE9 /* NovibetAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD816D1D257177B400E1EDE9 /* NovibetAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD816D35257177B400E1EDE9 /* Build configuration list for PBXNativeTarget "NovibetAssignmentTests" */;
+			buildPhases = (
+				FD816D1A257177B400E1EDE9 /* Sources */,
+				FD816D1B257177B400E1EDE9 /* Frameworks */,
+				FD816D1C257177B400E1EDE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD816D20257177B400E1EDE9 /* PBXTargetDependency */,
+			);
+			name = NovibetAssignmentTests;
+			productName = NovibetAssignmentTests;
+			productReference = FD816D1E257177B400E1EDE9 /* NovibetAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD816D28257177B400E1EDE9 /* NovibetAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD816D38257177B400E1EDE9 /* Build configuration list for PBXNativeTarget "NovibetAssignmentUITests" */;
+			buildPhases = (
+				FD816D25257177B400E1EDE9 /* Sources */,
+				FD816D26257177B400E1EDE9 /* Frameworks */,
+				FD816D27257177B400E1EDE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD816D2B257177B400E1EDE9 /* PBXTargetDependency */,
+			);
+			name = NovibetAssignmentUITests;
+			productName = NovibetAssignmentUITests;
+			productReference = FD816D29257177B400E1EDE9 /* NovibetAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD816D00257177B100E1EDE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FD816D07257177B100E1EDE9 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FD816D1D257177B400E1EDE9 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FD816D07257177B100E1EDE9;
+					};
+					FD816D28257177B400E1EDE9 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FD816D07257177B100E1EDE9;
+					};
+				};
+			};
+			buildConfigurationList = FD816D03257177B100E1EDE9 /* Build configuration list for PBXProject "NovibetAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD816CFF257177B100E1EDE9;
+			productRefGroup = FD816D09257177B100E1EDE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD816D07257177B100E1EDE9 /* NovibetAssignment */,
+				FD816D1D257177B400E1EDE9 /* NovibetAssignmentTests */,
+				FD816D28257177B400E1EDE9 /* NovibetAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD816D06257177B100E1EDE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD816D18257177B400E1EDE9 /* LaunchScreen.storyboard in Resources */,
+				FD816D15257177B400E1EDE9 /* Assets.xcassets in Resources */,
+				FD816D13257177B100E1EDE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD816D1C257177B400E1EDE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD816D27257177B400E1EDE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD816D04257177B100E1EDE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD816D10257177B100E1EDE9 /* ViewController.swift in Sources */,
+				FD816D0C257177B100E1EDE9 /* AppDelegate.swift in Sources */,
+				FD816D0E257177B100E1EDE9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD816D1A257177B400E1EDE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD816D23257177B400E1EDE9 /* NovibetAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD816D25257177B400E1EDE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD816D2E257177B400E1EDE9 /* NovibetAssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD816D20257177B400E1EDE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD816D07257177B100E1EDE9 /* NovibetAssignment */;
+			targetProxy = FD816D1F257177B400E1EDE9 /* PBXContainerItemProxy */;
+		};
+		FD816D2B257177B400E1EDE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD816D07257177B100E1EDE9 /* NovibetAssignment */;
+			targetProxy = FD816D2A257177B400E1EDE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD816D11257177B100E1EDE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD816D12257177B100E1EDE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD816D16257177B400E1EDE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD816D17257177B400E1EDE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD816D30257177B400E1EDE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD816D31257177B400E1EDE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD816D33257177B400E1EDE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2RWNXDU88;
+				INFOPLIST_FILE = NovibetAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stelios.NovibetAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD816D34257177B400E1EDE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2RWNXDU88;
+				INFOPLIST_FILE = NovibetAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stelios.NovibetAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD816D36257177B400E1EDE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2RWNXDU88;
+				INFOPLIST_FILE = NovibetAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stelios.NovibetAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NovibetAssignment.app/NovibetAssignment";
+			};
+			name = Debug;
+		};
+		FD816D37257177B400E1EDE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2RWNXDU88;
+				INFOPLIST_FILE = NovibetAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stelios.NovibetAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NovibetAssignment.app/NovibetAssignment";
+			};
+			name = Release;
+		};
+		FD816D39257177B400E1EDE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2RWNXDU88;
+				INFOPLIST_FILE = NovibetAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stelios.NovibetAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NovibetAssignment;
+			};
+			name = Debug;
+		};
+		FD816D3A257177B400E1EDE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2RWNXDU88;
+				INFOPLIST_FILE = NovibetAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stelios.NovibetAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NovibetAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD816D03257177B100E1EDE9 /* Build configuration list for PBXProject "NovibetAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD816D30257177B400E1EDE9 /* Debug */,
+				FD816D31257177B400E1EDE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD816D32257177B400E1EDE9 /* Build configuration list for PBXNativeTarget "NovibetAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD816D33257177B400E1EDE9 /* Debug */,
+				FD816D34257177B400E1EDE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD816D35257177B400E1EDE9 /* Build configuration list for PBXNativeTarget "NovibetAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD816D36257177B400E1EDE9 /* Debug */,
+				FD816D37257177B400E1EDE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD816D38257177B400E1EDE9 /* Build configuration list for PBXNativeTarget "NovibetAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD816D39257177B400E1EDE9 /* Debug */,
+				FD816D3A257177B400E1EDE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD816D00257177B100E1EDE9 /* Project object */;
+}
