@@ -1,0 +1,386 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BetItemsResponse"
+- "BetView"
+- "MarketCaptions"
+- "Competition"
+- "Event"
+- "Market"
+- "BetItem"
+- "AdditionalCaptions"
+- "LiveData"
+- "QuarterScore"
+provides-nominal:
+- "17NovibetAssignment16BetItemsResponseP"
+- "17NovibetAssignment7BetViewV"
+- "17NovibetAssignment14MarketCaptionsV"
+- "17NovibetAssignment11CompetitionV"
+- "17NovibetAssignment5EventV"
+- "17NovibetAssignment6MarketV"
+- "17NovibetAssignment7BetItemV"
+- "17NovibetAssignment18AdditionalCaptionsV"
+- "17NovibetAssignment8LiveDataV"
+- "17NovibetAssignment12QuarterScoreV"
+provides-member:
+- ["17NovibetAssignment16BetItemsResponseP", ""]
+- ["17NovibetAssignment7BetViewV", ""]
+- ["17NovibetAssignment14MarketCaptionsV", ""]
+- ["17NovibetAssignment11CompetitionV", ""]
+- ["17NovibetAssignment5EventV", ""]
+- ["17NovibetAssignment6MarketV", ""]
+- ["17NovibetAssignment7BetItemV", ""]
+- ["17NovibetAssignment18AdditionalCaptionsV", ""]
+- ["17NovibetAssignment8LiveDataV", ""]
+- ["17NovibetAssignment12QuarterScoreV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AdditionalCaptions"
+- "BetItem"
+- "BetItemsResponse"
+- "BetView"
+- "Bool"
+- "Competition"
+- "Decodable"
+- "Double"
+- "Event"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "LiveData"
+- "Market"
+- "MarketCaptions"
+- "QuarterScore"
+- "String"
+- !private "StringLiteralType"
+- "UInt64"
+- !private "~="
+depends-member:
+- ["17NovibetAssignment18AdditionalCaptionsV", "CodingKeys"]
+- ["17NovibetAssignment18AdditionalCaptionsV", "Int"]
+- ["17NovibetAssignment18AdditionalCaptionsV", "String"]
+- ["17NovibetAssignment18AdditionalCaptionsV", "UInt64"]
+- ["17NovibetAssignment18AdditionalCaptionsV", ""]
+- ["17NovibetAssignment18AdditionalCaptionsV", "competitor1"]
+- ["17NovibetAssignment18AdditionalCaptionsV", "competitor1ImageId"]
+- ["17NovibetAssignment18AdditionalCaptionsV", "competitor2"]
+- ["17NovibetAssignment18AdditionalCaptionsV", "competitor2ImageId"]
+- ["17NovibetAssignment18AdditionalCaptionsV", "init"]
+- ["17NovibetAssignment18AdditionalCaptionsV", "type"]
+- ["17NovibetAssignment7BetItemV", "Bool"]
+- ["17NovibetAssignment7BetItemV", "CodingKeys"]
+- ["17NovibetAssignment7BetItemV", "Double"]
+- ["17NovibetAssignment7BetItemV", "String"]
+- ["17NovibetAssignment7BetItemV", "UInt64"]
+- ["17NovibetAssignment7BetItemV", ""]
+- ["17NovibetAssignment7BetItemV", "caption"]
+- ["17NovibetAssignment7BetItemV", "code"]
+- ["17NovibetAssignment7BetItemV", "id"]
+- ["17NovibetAssignment7BetItemV", "init"]
+- ["17NovibetAssignment7BetItemV", "instanceCaption"]
+- ["17NovibetAssignment7BetItemV", "isAvailable"]
+- ["17NovibetAssignment7BetItemV", "oddsText"]
+- ["17NovibetAssignment7BetItemV", "price"]
+- ["17NovibetAssignment16BetItemsResponseP", "BetView"]
+- ["17NovibetAssignment16BetItemsResponseP", "Bool"]
+- ["17NovibetAssignment16BetItemsResponseP", "Int"]
+- ["17NovibetAssignment16BetItemsResponseP", "String"]
+- ["17NovibetAssignment16BetItemsResponseP", "betViews"]
+- ["17NovibetAssignment16BetItemsResponseP", "caption"]
+- ["17NovibetAssignment16BetItemsResponseP", "hasHighlights"]
+- ["17NovibetAssignment16BetItemsResponseP", "marketViewKey"]
+- ["17NovibetAssignment16BetItemsResponseP", "marketViewType"]
+- ["17NovibetAssignment16BetItemsResponseP", "modelType"]
+- ["17NovibetAssignment16BetItemsResponseP", "totalCount"]
+- ["17NovibetAssignment7BetViewV", "CodingKeys"]
+- ["17NovibetAssignment7BetViewV", "Competition"]
+- ["17NovibetAssignment7BetViewV", "Int"]
+- ["17NovibetAssignment7BetViewV", "MarketCaptions"]
+- ["17NovibetAssignment7BetViewV", "String"]
+- ["17NovibetAssignment7BetViewV", ""]
+- ["17NovibetAssignment7BetViewV", "betViewKey"]
+- ["17NovibetAssignment7BetViewV", "competitionContextCaption"]
+- ["17NovibetAssignment7BetViewV", "competitions"]
+- ["17NovibetAssignment7BetViewV", "competitor1Caption"]
+- ["17NovibetAssignment7BetViewV", "competitor2Caption"]
+- ["17NovibetAssignment7BetViewV", "init"]
+- ["17NovibetAssignment7BetViewV", "marketCaptions"]
+- ["17NovibetAssignment7BetViewV", "modelType"]
+- ["17NovibetAssignment7BetViewV", "startTime"]
+- ["17NovibetAssignment7BetViewV", "totalCount"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["17NovibetAssignment11CompetitionV", "CodingKeys"]
+- ["17NovibetAssignment11CompetitionV", "Event"]
+- ["17NovibetAssignment11CompetitionV", "String"]
+- ["17NovibetAssignment11CompetitionV", "UInt64"]
+- ["17NovibetAssignment11CompetitionV", ""]
+- ["17NovibetAssignment11CompetitionV", "betContextId"]
+- ["17NovibetAssignment11CompetitionV", "caption"]
+- ["17NovibetAssignment11CompetitionV", "events"]
+- ["17NovibetAssignment11CompetitionV", "init"]
+- ["17NovibetAssignment11CompetitionV", "regionCaption"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "BetView"]
+- ["Se", "Bool"]
+- ["Se", "Int"]
+- ["Se", "String"]
+- ["Se", ""]
+- !private ["Se", "additionalCaptions"]
+- !private ["Se", "adjustTimeMillis"]
+- !private ["Se", "awayPoints"]
+- !private ["Se", "awayScore"]
+- !private ["Se", "betCaptions"]
+- !private ["Se", "betContextId"]
+- !private ["Se", "betItems"]
+- !private ["Se", "betTypeSysname"]
+- !private ["Se", "betViewKey"]
+- ["Se", "betViews"]
+- ["Se", "caption"]
+- !private ["Se", "code"]
+- !private ["Se", "competitionContextCaption"]
+- !private ["Se", "competitions"]
+- !private ["Se", "competitor1"]
+- !private ["Se", "competitor1Caption"]
+- !private ["Se", "competitor1ImageId"]
+- !private ["Se", "competitor2"]
+- !private ["Se", "competitor2Caption"]
+- !private ["Se", "competitor2ImageId"]
+- !private ["Se", "duration"]
+- !private ["Se", "durationSeconds"]
+- !private ["Se", "elapsed"]
+- !private ["Se", "elapsedSeconds"]
+- !private ["Se", "events"]
+- !private ["Se", "hasBetContextInfo"]
+- ["Se", "hasHighlights"]
+- !private ["Se", "homePoints"]
+- !private ["Se", "homePossession"]
+- !private ["Se", "homeScore"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "instanceCaption"]
+- !private ["Se", "isAvailable"]
+- !private ["Se", "isHighlighted"]
+- !private ["Se", "isInPlay"]
+- !private ["Se", "isInPlayPaused"]
+- !private ["Se", "isInterrupted"]
+- !private ["Se", "isLive"]
+- !private ["Se", "liveData"]
+- !private ["Se", "liveStreamingCountries"]
+- !private ["Se", "marketCaption"]
+- !private ["Se", "marketCaptions"]
+- !private ["Se", "marketId"]
+- ["Se", "marketViewKey"]
+- ["Se", "marketViewType"]
+- !private ["Se", "markets"]
+- ["Se", "modelType"]
+- !private ["Se", "oddsText"]
+- !private ["Se", "path"]
+- !private ["Se", "phaseCaption"]
+- !private ["Se", "phaseCaptionLong"]
+- !private ["Se", "phaseSysname"]
+- !private ["Se", "price"]
+- !private ["Se", "quarterScores"]
+- !private ["Se", "referenceTime"]
+- !private ["Se", "referenceTimeUnix"]
+- !private ["Se", "regionCaption"]
+- !private ["Se", "remaining"]
+- !private ["Se", "remainingSeconds"]
+- !private ["Se", "sportradarMatchId"]
+- !private ["Se", "startTime"]
+- !private ["Se", "supportsAchievements"]
+- !private ["Se", "supportsActions"]
+- !private ["Se", "timeToNextPhase"]
+- !private ["Se", "timeToNextPhaseSeconds"]
+- !private ["Se", "timeline"]
+- ["Se", "totalCount"]
+- !private ["Se", "type"]
+- !private ["s7DecoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "stringValue"]
+- ["17NovibetAssignment5EventV", "AdditionalCaptions"]
+- ["17NovibetAssignment5EventV", "Bool"]
+- ["17NovibetAssignment5EventV", "CodingKeys"]
+- ["17NovibetAssignment5EventV", "LiveData"]
+- ["17NovibetAssignment5EventV", "Market"]
+- ["17NovibetAssignment5EventV", "String"]
+- ["17NovibetAssignment5EventV", "UInt64"]
+- ["17NovibetAssignment5EventV", ""]
+- ["17NovibetAssignment5EventV", "additionalCaptions"]
+- ["17NovibetAssignment5EventV", "betContextId"]
+- ["17NovibetAssignment5EventV", "hasBetContextInfo"]
+- ["17NovibetAssignment5EventV", "init"]
+- ["17NovibetAssignment5EventV", "isHighlighted"]
+- ["17NovibetAssignment5EventV", "liveData"]
+- ["17NovibetAssignment5EventV", "markets"]
+- ["17NovibetAssignment5EventV", "path"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- ["17NovibetAssignment8LiveDataV", "Bool"]
+- ["17NovibetAssignment8LiveDataV", "CodingKeys"]
+- ["17NovibetAssignment8LiveDataV", "Double"]
+- ["17NovibetAssignment8LiveDataV", "Int"]
+- ["17NovibetAssignment8LiveDataV", "QuarterScore"]
+- ["17NovibetAssignment8LiveDataV", "String"]
+- ["17NovibetAssignment8LiveDataV", "UInt64"]
+- ["17NovibetAssignment8LiveDataV", ""]
+- ["17NovibetAssignment8LiveDataV", "adjustTimeMillis"]
+- ["17NovibetAssignment8LiveDataV", "awayPoints"]
+- ["17NovibetAssignment8LiveDataV", "duration"]
+- ["17NovibetAssignment8LiveDataV", "durationSeconds"]
+- ["17NovibetAssignment8LiveDataV", "elapsed"]
+- ["17NovibetAssignment8LiveDataV", "elapsedSeconds"]
+- ["17NovibetAssignment8LiveDataV", "homePoints"]
+- ["17NovibetAssignment8LiveDataV", "homePossession"]
+- ["17NovibetAssignment8LiveDataV", "init"]
+- ["17NovibetAssignment8LiveDataV", "isInPlay"]
+- ["17NovibetAssignment8LiveDataV", "isInPlayPaused"]
+- ["17NovibetAssignment8LiveDataV", "isInterrupted"]
+- ["17NovibetAssignment8LiveDataV", "isLive"]
+- ["17NovibetAssignment8LiveDataV", "liveStreamingCountries"]
+- ["17NovibetAssignment8LiveDataV", "phaseCaption"]
+- ["17NovibetAssignment8LiveDataV", "phaseCaptionLong"]
+- ["17NovibetAssignment8LiveDataV", "phaseSysname"]
+- ["17NovibetAssignment8LiveDataV", "quarterScores"]
+- ["17NovibetAssignment8LiveDataV", "referenceTime"]
+- ["17NovibetAssignment8LiveDataV", "referenceTimeUnix"]
+- ["17NovibetAssignment8LiveDataV", "remaining"]
+- ["17NovibetAssignment8LiveDataV", "remainingSeconds"]
+- ["17NovibetAssignment8LiveDataV", "sportradarMatchId"]
+- ["17NovibetAssignment8LiveDataV", "supportsAchievements"]
+- ["17NovibetAssignment8LiveDataV", "supportsActions"]
+- ["17NovibetAssignment8LiveDataV", "timeToNextPhase"]
+- ["17NovibetAssignment8LiveDataV", "timeToNextPhaseSeconds"]
+- ["17NovibetAssignment8LiveDataV", "timeline"]
+- ["17NovibetAssignment6MarketV", "BetItem"]
+- ["17NovibetAssignment6MarketV", "CodingKeys"]
+- ["17NovibetAssignment6MarketV", "String"]
+- ["17NovibetAssignment6MarketV", "UInt64"]
+- ["17NovibetAssignment6MarketV", ""]
+- ["17NovibetAssignment6MarketV", "betItems"]
+- ["17NovibetAssignment6MarketV", "betTypeSysname"]
+- ["17NovibetAssignment6MarketV", "init"]
+- ["17NovibetAssignment6MarketV", "marketId"]
+- ["17NovibetAssignment14MarketCaptionsV", "CodingKeys"]
+- ["17NovibetAssignment14MarketCaptionsV", "String"]
+- ["17NovibetAssignment14MarketCaptionsV", ""]
+- ["17NovibetAssignment14MarketCaptionsV", "betCaptions"]
+- ["17NovibetAssignment14MarketCaptionsV", "betTypeSysname"]
+- ["17NovibetAssignment14MarketCaptionsV", "init"]
+- ["17NovibetAssignment14MarketCaptionsV", "marketCaption"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["17NovibetAssignment12QuarterScoreV", "CodingKeys"]
+- ["17NovibetAssignment12QuarterScoreV", "Int"]
+- ["17NovibetAssignment12QuarterScoreV", "String"]
+- ["17NovibetAssignment12QuarterScoreV", ""]
+- ["17NovibetAssignment12QuarterScoreV", "awayScore"]
+- ["17NovibetAssignment12QuarterScoreV", "caption"]
+- ["17NovibetAssignment12QuarterScoreV", "homeScore"]
+- ["17NovibetAssignment12QuarterScoreV", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "17NovibetAssignment18AdditionalCaptionsV"
+- "17NovibetAssignment7BetItemV"
+- "17NovibetAssignment16BetItemsResponseP"
+- "17NovibetAssignment7BetViewV"
+- "s9CodingKeyP"
+- "17NovibetAssignment11CompetitionV"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SQ"
+- "17NovibetAssignment5EventV"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "17NovibetAssignment8LiveDataV"
+- "17NovibetAssignment6MarketV"
+- "17NovibetAssignment14MarketCaptionsV"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "17NovibetAssignment12QuarterScoreV"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "624484431c791f6d63a50c5d85abd790"

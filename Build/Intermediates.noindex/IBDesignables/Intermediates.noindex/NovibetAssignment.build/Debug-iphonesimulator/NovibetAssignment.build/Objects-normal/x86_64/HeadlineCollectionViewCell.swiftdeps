@@ -1,0 +1,351 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HeadlineCollectionViewCell"
+provides-nominal:
+- "17NovibetAssignment26HeadlineCollectionViewCellC"
+provides-member:
+- ["17NovibetAssignment26HeadlineCollectionViewCellC", ""]
+provides-dynamic-lookup:
+- "configure"
+- "firstCompetitorLabel"
+- "secondCompetitorLabel"
+- "startTimeLabel"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Headline"
+- "HeadlineCollectionViewCell"
+- "UICollectionViewCell"
+- "UILabel"
+- !private "firstCompetitorLabel"
+- !private "secondCompetitorLabel"
+- !private "startTimeLabel"
+depends-member:
+- ["So15CALayerDelegateP", "Headline"]
+- ["So15CALayerDelegateP", "UILabel"]
+- ["So15CALayerDelegateP", ""]
+- ["So15CALayerDelegateP", "configure"]
+- ["So15CALayerDelegateP", "firstCompetitorLabel"]
+- ["So15CALayerDelegateP", "init"]
+- ["So15CALayerDelegateP", "secondCompetitorLabel"]
+- ["So15CALayerDelegateP", "startTimeLabel"]
+- !private ["So15CALayerDelegateP", "text"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "configure"]
+- !private ["s7CVarArgP", "firstCompetitorLabel"]
+- !private ["s7CVarArgP", "secondCompetitorLabel"]
+- !private ["s7CVarArgP", "startTimeLabel"]
+- !private ["s7CVarArgP", "text"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "configure"]
+- !private ["s28CustomDebugStringConvertibleP", "firstCompetitorLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "secondCompetitorLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "startTimeLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s17CustomReflectableP", "text"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "configure"]
+- !private ["s23CustomStringConvertibleP", "firstCompetitorLabel"]
+- !private ["s23CustomStringConvertibleP", "secondCompetitorLabel"]
+- !private ["s23CustomStringConvertibleP", "startTimeLabel"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["Se", "competitor1Caption"]
+- !private ["Se", "competitor2Caption"]
+- !private ["Se", "startTime"]
+- !private ["Se", "text"]
+- !private ["SE", "text"]
+- ["SQ", ""]
+- !private ["SQ", "configure"]
+- !private ["SQ", "firstCompetitorLabel"]
+- !private ["SQ", "secondCompetitorLabel"]
+- !private ["SQ", "startTimeLabel"]
+- !private ["SQ", "text"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- ["SH", ""]
+- !private ["SH", "configure"]
+- !private ["SH", "firstCompetitorLabel"]
+- !private ["SH", "secondCompetitorLabel"]
+- !private ["SH", "startTimeLabel"]
+- !private ["SH", "text"]
+- !private ["17NovibetAssignment8HeadlineV", "competitor1Caption"]
+- !private ["17NovibetAssignment8HeadlineV", "competitor2Caption"]
+- !private ["17NovibetAssignment8HeadlineV", "startTime"]
+- ["17NovibetAssignment26HeadlineCollectionViewCellC", "Headline"]
+- ["17NovibetAssignment26HeadlineCollectionViewCellC", "UILabel"]
+- ["17NovibetAssignment26HeadlineCollectionViewCellC", ""]
+- ["17NovibetAssignment26HeadlineCollectionViewCellC", "configure"]
+- ["17NovibetAssignment26HeadlineCollectionViewCellC", "deinit"]
+- ["17NovibetAssignment26HeadlineCollectionViewCellC", "firstCompetitorLabel"]
+- ["17NovibetAssignment26HeadlineCollectionViewCellC", "init"]
+- ["17NovibetAssignment26HeadlineCollectionViewCellC", "secondCompetitorLabel"]
+- ["17NovibetAssignment26HeadlineCollectionViewCellC", "startTimeLabel"]
+- ["So8NSCodingP", "Headline"]
+- ["So8NSCodingP", "UILabel"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "configure"]
+- ["So8NSCodingP", "firstCompetitorLabel"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "secondCompetitorLabel"]
+- ["So8NSCodingP", "startTimeLabel"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSObjectC", "Headline"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "configure"]
+- ["So8NSObjectC", "firstCompetitorLabel"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "secondCompetitorLabel"]
+- ["So8NSObjectC", "startTimeLabel"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectP", "Headline"]
+- ["So8NSObjectP", "UILabel"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "configure"]
+- ["So8NSObjectP", "firstCompetitorLabel"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "secondCompetitorLabel"]
+- ["So8NSObjectP", "startTimeLabel"]
+- !private ["So8NSObjectP", "text"]
+- !private ["Sq", "text"]
+- ["So29UIAccessibilityIdentificationP", "Headline"]
+- ["So29UIAccessibilityIdentificationP", "UILabel"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So29UIAccessibilityIdentificationP", "configure"]
+- ["So29UIAccessibilityIdentificationP", "firstCompetitorLabel"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- ["So29UIAccessibilityIdentificationP", "secondCompetitorLabel"]
+- ["So29UIAccessibilityIdentificationP", "startTimeLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- ["So12UIAppearanceP", "Headline"]
+- ["So12UIAppearanceP", "UILabel"]
+- ["So12UIAppearanceP", ""]
+- ["So12UIAppearanceP", "configure"]
+- ["So12UIAppearanceP", "firstCompetitorLabel"]
+- ["So12UIAppearanceP", "init"]
+- ["So12UIAppearanceP", "secondCompetitorLabel"]
+- ["So12UIAppearanceP", "startTimeLabel"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So21UIAppearanceContainerP", "Headline"]
+- ["So21UIAppearanceContainerP", "UILabel"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "configure"]
+- ["So21UIAppearanceContainerP", "firstCompetitorLabel"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "secondCompetitorLabel"]
+- ["So21UIAppearanceContainerP", "startTimeLabel"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- ["So24UICollectionReusableViewC", "Headline"]
+- ["So24UICollectionReusableViewC", "UILabel"]
+- ["So24UICollectionReusableViewC", ""]
+- ["So24UICollectionReusableViewC", "configure"]
+- ["So24UICollectionReusableViewC", "firstCompetitorLabel"]
+- ["So24UICollectionReusableViewC", "init"]
+- ["So24UICollectionReusableViewC", "secondCompetitorLabel"]
+- ["So24UICollectionReusableViewC", "startTimeLabel"]
+- ["So20UICollectionViewCellC", "Headline"]
+- ["So20UICollectionViewCellC", "UILabel"]
+- ["So20UICollectionViewCellC", ""]
+- ["So20UICollectionViewCellC", "configure"]
+- ["So20UICollectionViewCellC", "firstCompetitorLabel"]
+- ["So20UICollectionViewCellC", "init"]
+- ["So20UICollectionViewCellC", "secondCompetitorLabel"]
+- ["So20UICollectionViewCellC", "startTimeLabel"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- ["So17UICoordinateSpaceP", "Headline"]
+- ["So17UICoordinateSpaceP", "UILabel"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So17UICoordinateSpaceP", "configure"]
+- ["So17UICoordinateSpaceP", "firstCompetitorLabel"]
+- ["So17UICoordinateSpaceP", "init"]
+- ["So17UICoordinateSpaceP", "secondCompetitorLabel"]
+- ["So17UICoordinateSpaceP", "startTimeLabel"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- ["So13UIDynamicItemP", "Headline"]
+- ["So13UIDynamicItemP", "UILabel"]
+- ["So13UIDynamicItemP", ""]
+- ["So13UIDynamicItemP", "configure"]
+- ["So13UIDynamicItemP", "firstCompetitorLabel"]
+- ["So13UIDynamicItemP", "init"]
+- ["So13UIDynamicItemP", "secondCompetitorLabel"]
+- ["So13UIDynamicItemP", "startTimeLabel"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So18UIFocusEnvironmentP", "Headline"]
+- ["So18UIFocusEnvironmentP", "UILabel"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "configure"]
+- ["So18UIFocusEnvironmentP", "firstCompetitorLabel"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "secondCompetitorLabel"]
+- ["So18UIFocusEnvironmentP", "startTimeLabel"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- ["So11UIFocusItemP", "Headline"]
+- ["So11UIFocusItemP", "UILabel"]
+- ["So11UIFocusItemP", ""]
+- ["So11UIFocusItemP", "configure"]
+- ["So11UIFocusItemP", "firstCompetitorLabel"]
+- ["So11UIFocusItemP", "init"]
+- ["So11UIFocusItemP", "secondCompetitorLabel"]
+- ["So11UIFocusItemP", "startTimeLabel"]
+- !private ["So11UIFocusItemP", "text"]
+- ["So20UIFocusItemContainerP", "Headline"]
+- ["So20UIFocusItemContainerP", "UILabel"]
+- ["So20UIFocusItemContainerP", ""]
+- ["So20UIFocusItemContainerP", "configure"]
+- ["So20UIFocusItemContainerP", "firstCompetitorLabel"]
+- ["So20UIFocusItemContainerP", "init"]
+- ["So20UIFocusItemContainerP", "secondCompetitorLabel"]
+- ["So20UIFocusItemContainerP", "startTimeLabel"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So7UILabelC", "text"]
+- ["So24UILargeContentViewerItemP", "Headline"]
+- ["So24UILargeContentViewerItemP", "UILabel"]
+- ["So24UILargeContentViewerItemP", ""]
+- ["So24UILargeContentViewerItemP", "configure"]
+- ["So24UILargeContentViewerItemP", "firstCompetitorLabel"]
+- ["So24UILargeContentViewerItemP", "init"]
+- ["So24UILargeContentViewerItemP", "secondCompetitorLabel"]
+- ["So24UILargeContentViewerItemP", "startTimeLabel"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- ["So30UIPasteConfigurationSupportingP", "Headline"]
+- ["So30UIPasteConfigurationSupportingP", "UILabel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "configure"]
+- ["So30UIPasteConfigurationSupportingP", "firstCompetitorLabel"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "secondCompetitorLabel"]
+- ["So30UIPasteConfigurationSupportingP", "startTimeLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So11UIResponderC", "Headline"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "configure"]
+- ["So11UIResponderC", "firstCompetitorLabel"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "secondCompetitorLabel"]
+- ["So11UIResponderC", "startTimeLabel"]
+- !private ["So11UIResponderC", "text"]
+- ["So30UIResponderStandardEditActionsP", "Headline"]
+- ["So30UIResponderStandardEditActionsP", "UILabel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "configure"]
+- ["So30UIResponderStandardEditActionsP", "firstCompetitorLabel"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "secondCompetitorLabel"]
+- ["So30UIResponderStandardEditActionsP", "startTimeLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So18UITraitEnvironmentP", "Headline"]
+- ["So18UITraitEnvironmentP", "UILabel"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "configure"]
+- ["So18UITraitEnvironmentP", "firstCompetitorLabel"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "secondCompetitorLabel"]
+- ["So18UITraitEnvironmentP", "startTimeLabel"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So23UIUserActivityRestoringP", "Headline"]
+- ["So23UIUserActivityRestoringP", "UILabel"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "configure"]
+- ["So23UIUserActivityRestoringP", "firstCompetitorLabel"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "secondCompetitorLabel"]
+- ["So23UIUserActivityRestoringP", "startTimeLabel"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- ["So6UIViewC", "Headline"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "configure"]
+- ["So6UIViewC", "firstCompetitorLabel"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "secondCompetitorLabel"]
+- ["So6UIViewC", "startTimeLabel"]
+- !private ["So6UIViewC", "text"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstCompetitorLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "secondCompetitorLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startTimeLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "configure"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "firstCompetitorLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "secondCompetitorLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startTimeLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "configure"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "firstCompetitorLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "secondCompetitorLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "startTimeLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "17NovibetAssignment8HeadlineV"
+- "17NovibetAssignment26HeadlineCollectionViewCellC"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- !private "So7UILabelC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8879c31cda2c6838100ccf3dc3ead968"

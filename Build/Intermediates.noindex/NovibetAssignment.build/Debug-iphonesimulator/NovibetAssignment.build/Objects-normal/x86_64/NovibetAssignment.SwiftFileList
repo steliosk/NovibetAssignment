@@ -1,0 +1,42 @@
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Extentions/UIViewController+AlertAdditions.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Services/API/Models/Endpoint.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Services/Parser/Parser.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Models/BOs/Game.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Scenes/Login/LoginViewController.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Services/Parser/JSONParser.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Scenes/Login/LoginPresenter.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Scenes/Login/LoginRouter.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/AppDelegate.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Views/TableView\ cells/HeadlineTableViewCell.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Models/Responses/GamesResponse.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Scenes/Login/LoginModels.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Services/API/APIEnvironment.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Scenes/Home/HomeInteractor.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Services/API/Endpoints/LoginAPI.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Services/API/Endpoints/GamesAPI.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Extentions/UIView+AppAdditions.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Views/CollectionView\ cells/HeadlineCollectionViewCell.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Services/API/Services/GamesService.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Services/API/Models/NetworkStackError.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Models/BOs/Headline.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Services/API/Services/HeadlinesService.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Services/API/APIClient.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Scenes/Home/HomePresenter.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Models/Responses/BetItemsResponse.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Constants.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Common\ workers/SessionWorker.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Services/API/Services/LoginService.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Views/TableView\ cells/GameTableViewCell.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Services/API/Endpoints/HeadlinesAPI.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Scenes/Home/HomeWorker.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Scenes/Home/HomeViewController.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Scenes/Home/HomeModels.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Scenes/Login/LoginWorker.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Models/Responses/HeadlinesResponse.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Views/View/RoundedView.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Extentions/Class+Name.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Extentions/UserDefaults+AppAdditions.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Scenes/Login/LoginInteractor.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Services/API/APIConfig.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Services/API/URLSessionAPIClient.swift
+/Users/stelios/Documents/Test\ projects/NovibetAssignment/NovibetAssignment/Models/Responses/LoginResponse.swift

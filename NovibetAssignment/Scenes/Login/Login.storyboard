@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nk8-Io-npF">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="KYk-uW-cI0">
+            <objects>
+                <viewController id="Nk8-Io-npF" customClass="LoginViewController" customModule="NovibetAssignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RfV-Tj-wcF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2vw-bv-5gJ">
+                                <rect key="frame" x="42" y="325" width="291" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="vbv-zv-wcK"/>
+                                </constraints>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="Nk8-Io-npF" eventType="touchUpInside" id="5gc-N2-l5W"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="First name" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Hum-U1-czA">
+                                <rect key="frame" x="42" y="206" width="291" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="qBB-ZR-Jmb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="continue" textContentType="tel"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Last name" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="P0C-C6-82B">
+                                <rect key="frame" x="42" y="267" width="291" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="aq4-GS-eCD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="continue" textContentType="tel"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="amv-FE-64S"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Hum-U1-czA" firstAttribute="leading" secondItem="amv-FE-64S" secondAttribute="leading" constant="42" id="1Uq-J5-89Z"/>
+                            <constraint firstItem="2vw-bv-5gJ" firstAttribute="leading" secondItem="P0C-C6-82B" secondAttribute="leading" id="AmE-mw-Qdi"/>
+                            <constraint firstItem="amv-FE-64S" firstAttribute="trailing" secondItem="Hum-U1-czA" secondAttribute="trailing" constant="42" id="KIE-Pl-bEd"/>
+                            <constraint firstItem="Hum-U1-czA" firstAttribute="centerX" secondItem="amv-FE-64S" secondAttribute="centerX" id="SMD-qF-ggX"/>
+                            <constraint firstItem="Hum-U1-czA" firstAttribute="top" secondItem="amv-FE-64S" secondAttribute="top" constant="206" id="e5c-SE-GpT"/>
+                            <constraint firstItem="2vw-bv-5gJ" firstAttribute="trailing" secondItem="P0C-C6-82B" secondAttribute="trailing" id="egO-er-qOC"/>
+                            <constraint firstItem="P0C-C6-82B" firstAttribute="leading" secondItem="amv-FE-64S" secondAttribute="leading" constant="42" id="gM8-4q-LY8"/>
+                            <constraint firstItem="P0C-C6-82B" firstAttribute="top" secondItem="Hum-U1-czA" secondAttribute="bottom" constant="19" id="iun-Oy-WsO"/>
+                            <constraint firstItem="amv-FE-64S" firstAttribute="trailing" secondItem="P0C-C6-82B" secondAttribute="trailing" constant="42" id="nbr-G5-F25"/>
+                            <constraint firstItem="2vw-bv-5gJ" firstAttribute="top" secondItem="P0C-C6-82B" secondAttribute="bottom" constant="16" id="o5d-TA-T1L"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="firstNameTextField" destination="Hum-U1-czA" id="7Ow-kF-Xcu"/>
+                        <outlet property="lastNameTextField" destination="P0C-C6-82B" id="lFV-0E-b2L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gjM-Lh-mOu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152.80000000000001" y="172.26386806596702"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

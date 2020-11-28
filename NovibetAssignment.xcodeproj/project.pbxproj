@@ -7,14 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD1D8F982572CAB000EBE877 /* GamesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1D8F972572CAB000EBE877 /* GamesResponse.swift */; };
+		FD1D8F9D2572CAE700EBE877 /* BetItemsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1D8F9C2572CAE700EBE877 /* BetItemsResponse.swift */; };
+		FD1D8FB12572D71400EBE877 /* UIViewController+AlertAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1D8FB02572D71400EBE877 /* UIViewController+AlertAdditions.swift */; };
 		FD816D0C257177B100E1EDE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D0B257177B100E1EDE9 /* AppDelegate.swift */; };
-		FD816D0E257177B100E1EDE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D0D257177B100E1EDE9 /* SceneDelegate.swift */; };
-		FD816D10257177B100E1EDE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D0F257177B100E1EDE9 /* ViewController.swift */; };
-		FD816D13257177B100E1EDE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD816D11257177B100E1EDE9 /* Main.storyboard */; };
 		FD816D15257177B400E1EDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD816D14257177B400E1EDE9 /* Assets.xcassets */; };
 		FD816D18257177B400E1EDE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD816D16257177B400E1EDE9 /* LaunchScreen.storyboard */; };
 		FD816D23257177B400E1EDE9 /* NovibetAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D22257177B400E1EDE9 /* NovibetAssignmentTests.swift */; };
 		FD816D2E257177B400E1EDE9 /* NovibetAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D2D257177B400E1EDE9 /* NovibetAssignmentUITests.swift */; };
+		FD816D412571782900E1EDE9 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D402571782900E1EDE9 /* APIClient.swift */; };
+		FD816D492571783700E1EDE9 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D482571783700E1EDE9 /* APIConfig.swift */; };
+		FD816D4E2571784800E1EDE9 /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D4D2571784800E1EDE9 /* APIEnvironment.swift */; };
+		FD816D532571785D00E1EDE9 /* URLSessionAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D522571785D00E1EDE9 /* URLSessionAPIClient.swift */; };
+		FD816D59257178A100E1EDE9 /* NetworkStackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D58257178A100E1EDE9 /* NetworkStackError.swift */; };
+		FD816D61257178AD00E1EDE9 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D60257178AD00E1EDE9 /* Endpoint.swift */; };
+		FD816D6725717AF300E1EDE9 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D6625717AF300E1EDE9 /* Parser.swift */; };
+		FD816D6C25717B1500E1EDE9 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D6B25717B1500E1EDE9 /* JSONParser.swift */; };
+		FD816D7F25717CD600E1EDE9 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D7E25717CD600E1EDE9 /* LoginAPI.swift */; };
+		FD816D8725717FBA00E1EDE9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D8625717FBA00E1EDE9 /* Constants.swift */; };
+		FD816D8C2571804800E1EDE9 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D8B2571804800E1EDE9 /* LoginResponse.swift */; };
+		FD816D92257180DE00E1EDE9 /* UserDefaults+AppAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D91257180DE00E1EDE9 /* UserDefaults+AppAdditions.swift */; };
+		FD816D9A257181B900E1EDE9 /* GamesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D99257181B900E1EDE9 /* GamesAPI.swift */; };
+		FD816DA02571836200E1EDE9 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D9F2571836200E1EDE9 /* LoginService.swift */; };
+		FD816DAF2571841100E1EDE9 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DA92571841100E1EDE9 /* LoginPresenter.swift */; };
+		FD816DB02571841100E1EDE9 /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DAA2571841100E1EDE9 /* LoginWorker.swift */; };
+		FD816DB12571841100E1EDE9 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DAB2571841100E1EDE9 /* LoginRouter.swift */; };
+		FD816DB22571841100E1EDE9 /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DAC2571841100E1EDE9 /* LoginModels.swift */; };
+		FD816DB32571841100E1EDE9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DAD2571841100E1EDE9 /* LoginViewController.swift */; };
+		FD816DB42571841100E1EDE9 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DAE2571841100E1EDE9 /* LoginInteractor.swift */; };
+		FD816DBC2571842100E1EDE9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD816DBB2571842100E1EDE9 /* Login.storyboard */; };
+		FD816DCF2571887A00E1EDE9 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DC92571887A00E1EDE9 /* HomePresenter.swift */; };
+		FD816DD02571887A00E1EDE9 /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DCA2571887A00E1EDE9 /* HomeWorker.swift */; };
+		FD816DD22571887A00E1EDE9 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DCC2571887A00E1EDE9 /* HomeModels.swift */; };
+		FD816DD32571887A00E1EDE9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DCD2571887A00E1EDE9 /* HomeViewController.swift */; };
+		FD816DD42571887A00E1EDE9 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DCE2571887A00E1EDE9 /* HomeInteractor.swift */; };
+		FD816DDC2571888600E1EDE9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD816DDB2571888600E1EDE9 /* Home.storyboard */; };
+		FD816DE82571905C00E1EDE9 /* SessionWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DE72571905C00E1EDE9 /* SessionWorker.swift */; };
+		FD816DF62571932700E1EDE9 /* GamesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DF52571932700E1EDE9 /* GamesService.swift */; };
+		FD816DFB2571936E00E1EDE9 /* HeadlinesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DFA2571936E00E1EDE9 /* HeadlinesService.swift */; };
+		FD816E05257193F400E1EDE9 /* HeadlinesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816E04257193F400E1EDE9 /* HeadlinesResponse.swift */; };
+		FD816E0A257194DF00E1EDE9 /* HeadlinesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816E09257194DF00E1EDE9 /* HeadlinesAPI.swift */; };
+		FD816E1425724F2A00E1EDE9 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816E1325724F2A00E1EDE9 /* Game.swift */; };
+		FD816E1925724F3300E1EDE9 /* Headline.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816E1825724F3300E1EDE9 /* Headline.swift */; };
+		FD816E2425725DBB00E1EDE9 /* HeadlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816E2325725DBB00E1EDE9 /* HeadlineTableViewCell.swift */; };
+		FD816E2C25725DC800E1EDE9 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816E2B25725DC800E1EDE9 /* GameTableViewCell.swift */; };
+		FD816E3125725DD900E1EDE9 /* HeadlineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816E3025725DD900E1EDE9 /* HeadlineCollectionViewCell.swift */; };
+		FD816E3625725F3800E1EDE9 /* Class+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816E3525725F3800E1EDE9 /* Class+Name.swift */; };
+		FDD4FDE92572BBAB00942611 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4FDE82572BBAB00942611 /* RoundedView.swift */; };
+		FDD4FDF12572BC5A00942611 /* UIView+AppAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4FDF02572BC5A00942611 /* UIView+AppAdditions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +75,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD1D8F972572CAB000EBE877 /* GamesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesResponse.swift; sourceTree = "<group>"; };
+		FD1D8F9C2572CAE700EBE877 /* BetItemsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetItemsResponse.swift; sourceTree = "<group>"; };
+		FD1D8FB02572D71400EBE877 /* UIViewController+AlertAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+AlertAdditions.swift"; sourceTree = "<group>"; };
 		FD816D08257177B100E1EDE9 /* NovibetAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovibetAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD816D0B257177B100E1EDE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD816D0D257177B100E1EDE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD816D0F257177B100E1EDE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FD816D12257177B100E1EDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD816D14257177B400E1EDE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD816D17257177B400E1EDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD816D19257177B400E1EDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +89,46 @@
 		FD816D29257177B400E1EDE9 /* NovibetAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovibetAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD816D2D257177B400E1EDE9 /* NovibetAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovibetAssignmentUITests.swift; sourceTree = "<group>"; };
 		FD816D2F257177B400E1EDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD816D402571782900E1EDE9 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		FD816D482571783700E1EDE9 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		FD816D4D2571784800E1EDE9 /* APIEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
+		FD816D522571785D00E1EDE9 /* URLSessionAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionAPIClient.swift; sourceTree = "<group>"; };
+		FD816D58257178A100E1EDE9 /* NetworkStackError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStackError.swift; sourceTree = "<group>"; };
+		FD816D60257178AD00E1EDE9 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		FD816D6625717AF300E1EDE9 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		FD816D6B25717B1500E1EDE9 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		FD816D7E25717CD600E1EDE9 /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
+		FD816D8625717FBA00E1EDE9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FD816D8B2571804800E1EDE9 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		FD816D91257180DE00E1EDE9 /* UserDefaults+AppAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+AppAdditions.swift"; sourceTree = "<group>"; };
+		FD816D99257181B900E1EDE9 /* GamesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesAPI.swift; sourceTree = "<group>"; };
+		FD816D9F2571836200E1EDE9 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		FD816DA92571841100E1EDE9 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		FD816DAA2571841100E1EDE9 /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
+		FD816DAB2571841100E1EDE9 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		FD816DAC2571841100E1EDE9 /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
+		FD816DAD2571841100E1EDE9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FD816DAE2571841100E1EDE9 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		FD816DBB2571842100E1EDE9 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		FD816DC92571887A00E1EDE9 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		FD816DCA2571887A00E1EDE9 /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		FD816DCC2571887A00E1EDE9 /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		FD816DCD2571887A00E1EDE9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FD816DCE2571887A00E1EDE9 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		FD816DDB2571888600E1EDE9 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		FD816DE72571905C00E1EDE9 /* SessionWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionWorker.swift; sourceTree = "<group>"; };
+		FD816DF52571932700E1EDE9 /* GamesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesService.swift; sourceTree = "<group>"; };
+		FD816DFA2571936E00E1EDE9 /* HeadlinesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesService.swift; sourceTree = "<group>"; };
+		FD816E04257193F400E1EDE9 /* HeadlinesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesResponse.swift; sourceTree = "<group>"; };
+		FD816E09257194DF00E1EDE9 /* HeadlinesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesAPI.swift; sourceTree = "<group>"; };
+		FD816E1325724F2A00E1EDE9 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		FD816E1825724F3300E1EDE9 /* Headline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headline.swift; sourceTree = "<group>"; };
+		FD816E2325725DBB00E1EDE9 /* HeadlineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineTableViewCell.swift; sourceTree = "<group>"; };
+		FD816E2B25725DC800E1EDE9 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		FD816E3025725DD900E1EDE9 /* HeadlineCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineCollectionViewCell.swift; sourceTree = "<group>"; };
+		FD816E3525725F3800E1EDE9 /* Class+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Class+Name.swift"; sourceTree = "<group>"; };
+		FDD4FDE82572BBAB00942611 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		FDD4FDF02572BC5A00942611 /* UIView+AppAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AppAdditions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +179,17 @@
 		FD816D0A257177B100E1EDE9 /* NovibetAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				FD816D7425717C4200E1EDE9 /* Scenes */,
+				FD816DE62571904C00E1EDE9 /* Common workers */,
+				FD816D7325717C3500E1EDE9 /* Models */,
+				FD816E2025725D8100E1EDE9 /* Views */,
+				FD816D3E2571781300E1EDE9 /* Services */,
 				FD816D0B257177B100E1EDE9 /* AppDelegate.swift */,
-				FD816D0D257177B100E1EDE9 /* SceneDelegate.swift */,
-				FD816D0F257177B100E1EDE9 /* ViewController.swift */,
-				FD816D11257177B100E1EDE9 /* Main.storyboard */,
 				FD816D14257177B400E1EDE9 /* Assets.xcassets */,
 				FD816D16257177B400E1EDE9 /* LaunchScreen.storyboard */,
 				FD816D19257177B400E1EDE9 /* Info.plist */,
+				FD816D8625717FBA00E1EDE9 /* Constants.swift */,
+				FD816D90257180B300E1EDE9 /* Extentions */,
 			);
 			path = NovibetAssignment;
 			sourceTree = "<group>";
@@ -126,6 +210,186 @@
 				FD816D2F257177B400E1EDE9 /* Info.plist */,
 			);
 			path = NovibetAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		FD816D3E2571781300E1EDE9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FD816D3F2571781A00E1EDE9 /* API */,
+				FD816D6525717ACF00E1EDE9 /* Parser */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FD816D3F2571781A00E1EDE9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FD816D402571782900E1EDE9 /* APIClient.swift */,
+				FD816D482571783700E1EDE9 /* APIConfig.swift */,
+				FD816D4D2571784800E1EDE9 /* APIEnvironment.swift */,
+				FD816D522571785D00E1EDE9 /* URLSessionAPIClient.swift */,
+				FD816D9E2571831400E1EDE9 /* Services */,
+				FD816D7D25717CC900E1EDE9 /* Endpoints */,
+				FD816D572571789200E1EDE9 /* Models */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		FD816D572571789200E1EDE9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD816D58257178A100E1EDE9 /* NetworkStackError.swift */,
+				FD816D60257178AD00E1EDE9 /* Endpoint.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FD816D6525717ACF00E1EDE9 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				FD816D6625717AF300E1EDE9 /* Parser.swift */,
+				FD816D6B25717B1500E1EDE9 /* JSONParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		FD816D7325717C3500E1EDE9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD816E0F25724A1500E1EDE9 /* BOs */,
+				FD816E0E25724A0D00E1EDE9 /* Responses */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FD816D7425717C4200E1EDE9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FD816DA7257183EC00E1EDE9 /* Login */,
+				FD816DA8257183F500E1EDE9 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FD816D7D25717CC900E1EDE9 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				FD816D7E25717CD600E1EDE9 /* LoginAPI.swift */,
+				FD816D99257181B900E1EDE9 /* GamesAPI.swift */,
+				FD816E09257194DF00E1EDE9 /* HeadlinesAPI.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		FD816D90257180B300E1EDE9 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				FD816E3525725F3800E1EDE9 /* Class+Name.swift */,
+				FD816D91257180DE00E1EDE9 /* UserDefaults+AppAdditions.swift */,
+				FDD4FDF02572BC5A00942611 /* UIView+AppAdditions.swift */,
+				FD1D8FB02572D71400EBE877 /* UIViewController+AlertAdditions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		FD816D9E2571831400E1EDE9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FD816D9F2571836200E1EDE9 /* LoginService.swift */,
+				FD816DF52571932700E1EDE9 /* GamesService.swift */,
+				FD816DFA2571936E00E1EDE9 /* HeadlinesService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FD816DA7257183EC00E1EDE9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FD816DBB2571842100E1EDE9 /* Login.storyboard */,
+				FD816DAD2571841100E1EDE9 /* LoginViewController.swift */,
+				FD816DAE2571841100E1EDE9 /* LoginInteractor.swift */,
+				FD816DA92571841100E1EDE9 /* LoginPresenter.swift */,
+				FD816DAA2571841100E1EDE9 /* LoginWorker.swift */,
+				FD816DAC2571841100E1EDE9 /* LoginModels.swift */,
+				FD816DAB2571841100E1EDE9 /* LoginRouter.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FD816DA8257183F500E1EDE9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FD816DDB2571888600E1EDE9 /* Home.storyboard */,
+				FD816DCD2571887A00E1EDE9 /* HomeViewController.swift */,
+				FD816DCE2571887A00E1EDE9 /* HomeInteractor.swift */,
+				FD816DC92571887A00E1EDE9 /* HomePresenter.swift */,
+				FD816DCA2571887A00E1EDE9 /* HomeWorker.swift */,
+				FD816DCC2571887A00E1EDE9 /* HomeModels.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FD816DE62571904C00E1EDE9 /* Common workers */ = {
+			isa = PBXGroup;
+			children = (
+				FD816DE72571905C00E1EDE9 /* SessionWorker.swift */,
+			);
+			path = "Common workers";
+			sourceTree = "<group>";
+		};
+		FD816E0E25724A0D00E1EDE9 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				FD816D8B2571804800E1EDE9 /* LoginResponse.swift */,
+				FD816E04257193F400E1EDE9 /* HeadlinesResponse.swift */,
+				FD1D8F972572CAB000EBE877 /* GamesResponse.swift */,
+				FD1D8F9C2572CAE700EBE877 /* BetItemsResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		FD816E0F25724A1500E1EDE9 /* BOs */ = {
+			isa = PBXGroup;
+			children = (
+				FD816E1325724F2A00E1EDE9 /* Game.swift */,
+				FD816E1825724F3300E1EDE9 /* Headline.swift */,
+			);
+			path = BOs;
+			sourceTree = "<group>";
+		};
+		FD816E2025725D8100E1EDE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDD4FDE72572BA8600942611 /* View */,
+				FD816E2225725D9C00E1EDE9 /* CollectionView cells */,
+				FD816E2125725D9100E1EDE9 /* TableView cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD816E2125725D9100E1EDE9 /* TableView cells */ = {
+			isa = PBXGroup;
+			children = (
+				FD816E2325725DBB00E1EDE9 /* HeadlineTableViewCell.swift */,
+				FD816E2B25725DC800E1EDE9 /* GameTableViewCell.swift */,
+			);
+			path = "TableView cells";
+			sourceTree = "<group>";
+		};
+		FD816E2225725D9C00E1EDE9 /* CollectionView cells */ = {
+			isa = PBXGroup;
+			children = (
+				FD816E3025725DD900E1EDE9 /* HeadlineCollectionViewCell.swift */,
+			);
+			path = "CollectionView cells";
+			sourceTree = "<group>";
+		};
+		FDD4FDE72572BA8600942611 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDD4FDE82572BBAB00942611 /* RoundedView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +495,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD816DBC2571842100E1EDE9 /* Login.storyboard in Resources */,
+				FD816DDC2571888600E1EDE9 /* Home.storyboard in Resources */,
 				FD816D18257177B400E1EDE9 /* LaunchScreen.storyboard in Resources */,
 				FD816D15257177B400E1EDE9 /* Assets.xcassets in Resources */,
-				FD816D13257177B100E1EDE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +523,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD816D10257177B100E1EDE9 /* ViewController.swift in Sources */,
+				FD1D8FB12572D71400EBE877 /* UIViewController+AlertAdditions.swift in Sources */,
+				FD816D61257178AD00E1EDE9 /* Endpoint.swift in Sources */,
+				FD816D6725717AF300E1EDE9 /* Parser.swift in Sources */,
+				FD816E1425724F2A00E1EDE9 /* Game.swift in Sources */,
+				FD816DB32571841100E1EDE9 /* LoginViewController.swift in Sources */,
+				FD816D6C25717B1500E1EDE9 /* JSONParser.swift in Sources */,
+				FD816DAF2571841100E1EDE9 /* LoginPresenter.swift in Sources */,
+				FD816DB12571841100E1EDE9 /* LoginRouter.swift in Sources */,
 				FD816D0C257177B100E1EDE9 /* AppDelegate.swift in Sources */,
-				FD816D0E257177B100E1EDE9 /* SceneDelegate.swift in Sources */,
+				FD816E2425725DBB00E1EDE9 /* HeadlineTableViewCell.swift in Sources */,
+				FD1D8F982572CAB000EBE877 /* GamesResponse.swift in Sources */,
+				FD816DB22571841100E1EDE9 /* LoginModels.swift in Sources */,
+				FD816D4E2571784800E1EDE9 /* APIEnvironment.swift in Sources */,
+				FD816DD42571887A00E1EDE9 /* HomeInteractor.swift in Sources */,
+				FD816D7F25717CD600E1EDE9 /* LoginAPI.swift in Sources */,
+				FD816D9A257181B900E1EDE9 /* GamesAPI.swift in Sources */,
+				FDD4FDF12572BC5A00942611 /* UIView+AppAdditions.swift in Sources */,
+				FD816E3125725DD900E1EDE9 /* HeadlineCollectionViewCell.swift in Sources */,
+				FD816DF62571932700E1EDE9 /* GamesService.swift in Sources */,
+				FD816D59257178A100E1EDE9 /* NetworkStackError.swift in Sources */,
+				FD816E1925724F3300E1EDE9 /* Headline.swift in Sources */,
+				FD816DFB2571936E00E1EDE9 /* HeadlinesService.swift in Sources */,
+				FD816D412571782900E1EDE9 /* APIClient.swift in Sources */,
+				FD816DCF2571887A00E1EDE9 /* HomePresenter.swift in Sources */,
+				FD1D8F9D2572CAE700EBE877 /* BetItemsResponse.swift in Sources */,
+				FD816D8725717FBA00E1EDE9 /* Constants.swift in Sources */,
+				FD816DE82571905C00E1EDE9 /* SessionWorker.swift in Sources */,
+				FD816DA02571836200E1EDE9 /* LoginService.swift in Sources */,
+				FD816E2C25725DC800E1EDE9 /* GameTableViewCell.swift in Sources */,
+				FD816E0A257194DF00E1EDE9 /* HeadlinesAPI.swift in Sources */,
+				FD816DD02571887A00E1EDE9 /* HomeWorker.swift in Sources */,
+				FD816DD32571887A00E1EDE9 /* HomeViewController.swift in Sources */,
+				FD816DD22571887A00E1EDE9 /* HomeModels.swift in Sources */,
+				FD816DB02571841100E1EDE9 /* LoginWorker.swift in Sources */,
+				FD816E05257193F400E1EDE9 /* HeadlinesResponse.swift in Sources */,
+				FDD4FDE92572BBAB00942611 /* RoundedView.swift in Sources */,
+				FD816E3625725F3800E1EDE9 /* Class+Name.swift in Sources */,
+				FD816D92257180DE00E1EDE9 /* UserDefaults+AppAdditions.swift in Sources */,
+				FD816DB42571841100E1EDE9 /* LoginInteractor.swift in Sources */,
+				FD816D492571783700E1EDE9 /* APIConfig.swift in Sources */,
+				FD816D532571785D00E1EDE9 /* URLSessionAPIClient.swift in Sources */,
+				FD816D8C2571804800E1EDE9 /* LoginResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +600,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FD816D11257177B100E1EDE9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD816D12257177B100E1EDE9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FD816D16257177B400E1EDE9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +662,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +717,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,14 +735,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W2RWNXDU88;
 				INFOPLIST_FILE = NovibetAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stelios.NovibetAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,14 +755,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W2RWNXDU88;
 				INFOPLIST_FILE = NovibetAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stelios.NovibetAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

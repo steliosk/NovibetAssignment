@@ -1,0 +1,225 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Home"
+provides-nominal:
+- "17NovibetAssignment4HomeO"
+- "17NovibetAssignment4HomeO5GamesO"
+- "17NovibetAssignment4HomeO5GamesO7RequestV"
+- "17NovibetAssignment4HomeO5GamesO8ResponseV"
+- "17NovibetAssignment4HomeO5GamesO9ViewModelV"
+- "17NovibetAssignment4HomeO9HeadlinesO"
+- "17NovibetAssignment4HomeO9HeadlinesO7RequestV"
+- "17NovibetAssignment4HomeO9HeadlinesO8ResponseV"
+- "17NovibetAssignment4HomeO9HeadlinesO9ViewModelV"
+- "17NovibetAssignment4HomeO10UpdateDataO"
+- "17NovibetAssignment4HomeO10UpdateDataO7RequestV"
+- "17NovibetAssignment4HomeO10UpdateDataO8ResponseV"
+- "17NovibetAssignment4HomeO10UpdateDataO9ViewModelV"
+- "17NovibetAssignment4HomeO7PollingO"
+- "17NovibetAssignment4HomeO7PollingO7RequestV"
+- "17NovibetAssignment4HomeO7PollingO8ResponseV"
+- "17NovibetAssignment4HomeO7PollingO9ViewModelV"
+- "17NovibetAssignment4HomeO14ScrollHeadlineO"
+- "17NovibetAssignment4HomeO14ScrollHeadlineO7RequestV"
+- "17NovibetAssignment4HomeO14ScrollHeadlineO8ResponseV"
+- "17NovibetAssignment4HomeO14ScrollHeadlineO9ViewModelV"
+- "17NovibetAssignment4HomeO0C5ErrorO"
+- "17NovibetAssignment4HomeO0C5ErrorO7RequestV"
+- "17NovibetAssignment4HomeO0C5ErrorO8ResponseV"
+- "17NovibetAssignment4HomeO0C5ErrorO9ViewModelV"
+provides-member:
+- ["17NovibetAssignment4HomeO", ""]
+- ["17NovibetAssignment4HomeO5GamesO", ""]
+- ["17NovibetAssignment4HomeO5GamesO7RequestV", ""]
+- ["17NovibetAssignment4HomeO5GamesO8ResponseV", ""]
+- ["17NovibetAssignment4HomeO5GamesO9ViewModelV", ""]
+- ["17NovibetAssignment4HomeO9HeadlinesO", ""]
+- ["17NovibetAssignment4HomeO9HeadlinesO7RequestV", ""]
+- ["17NovibetAssignment4HomeO9HeadlinesO8ResponseV", ""]
+- ["17NovibetAssignment4HomeO9HeadlinesO9ViewModelV", ""]
+- ["17NovibetAssignment4HomeO10UpdateDataO", ""]
+- ["17NovibetAssignment4HomeO10UpdateDataO7RequestV", ""]
+- ["17NovibetAssignment4HomeO10UpdateDataO8ResponseV", ""]
+- ["17NovibetAssignment4HomeO10UpdateDataO9ViewModelV", ""]
+- ["17NovibetAssignment4HomeO7PollingO", ""]
+- ["17NovibetAssignment4HomeO7PollingO7RequestV", ""]
+- ["17NovibetAssignment4HomeO7PollingO8ResponseV", ""]
+- ["17NovibetAssignment4HomeO7PollingO9ViewModelV", ""]
+- ["17NovibetAssignment4HomeO14ScrollHeadlineO", ""]
+- ["17NovibetAssignment4HomeO14ScrollHeadlineO7RequestV", ""]
+- ["17NovibetAssignment4HomeO14ScrollHeadlineO8ResponseV", ""]
+- ["17NovibetAssignment4HomeO14ScrollHeadlineO9ViewModelV", ""]
+- ["17NovibetAssignment4HomeO0C5ErrorO", ""]
+- ["17NovibetAssignment4HomeO0C5ErrorO7RequestV", ""]
+- ["17NovibetAssignment4HomeO0C5ErrorO8ResponseV", ""]
+- ["17NovibetAssignment4HomeO0C5ErrorO9ViewModelV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "Error"
+- "Game"
+- "Headline"
+- "Home"
+- "Int"
+- "String"
+depends-member:
+- ["17NovibetAssignment4HomeO5GamesO", "Bool"]
+- ["17NovibetAssignment4HomeO5GamesO", "Game"]
+- ["17NovibetAssignment4HomeO5GamesO", "Request"]
+- ["17NovibetAssignment4HomeO5GamesO", "Response"]
+- ["17NovibetAssignment4HomeO5GamesO", "ViewModel"]
+- ["17NovibetAssignment4HomeO9HeadlinesO", "Bool"]
+- ["17NovibetAssignment4HomeO9HeadlinesO", "Headline"]
+- ["17NovibetAssignment4HomeO9HeadlinesO", "Request"]
+- ["17NovibetAssignment4HomeO9HeadlinesO", "Response"]
+- ["17NovibetAssignment4HomeO9HeadlinesO", "ViewModel"]
+- ["17NovibetAssignment4HomeO", "Bool"]
+- ["17NovibetAssignment4HomeO", "Error"]
+- ["17NovibetAssignment4HomeO", "Game"]
+- ["17NovibetAssignment4HomeO", "Games"]
+- ["17NovibetAssignment4HomeO", "Headline"]
+- ["17NovibetAssignment4HomeO", "Headlines"]
+- ["17NovibetAssignment4HomeO", "HomeError"]
+- ["17NovibetAssignment4HomeO", "Int"]
+- ["17NovibetAssignment4HomeO", "Polling"]
+- ["17NovibetAssignment4HomeO", "ScrollHeadline"]
+- ["17NovibetAssignment4HomeO", "String"]
+- ["17NovibetAssignment4HomeO", "UpdateData"]
+- ["17NovibetAssignment4HomeO0C5ErrorO", "Error"]
+- ["17NovibetAssignment4HomeO0C5ErrorO", "Request"]
+- ["17NovibetAssignment4HomeO0C5ErrorO", "Response"]
+- ["17NovibetAssignment4HomeO0C5ErrorO", "String"]
+- ["17NovibetAssignment4HomeO0C5ErrorO", "ViewModel"]
+- ["17NovibetAssignment4HomeO7PollingO", "Bool"]
+- ["17NovibetAssignment4HomeO7PollingO", "Request"]
+- ["17NovibetAssignment4HomeO7PollingO", "Response"]
+- ["17NovibetAssignment4HomeO7PollingO", "ViewModel"]
+- ["17NovibetAssignment4HomeO14ScrollHeadlineO7RequestV", "Bool"]
+- ["17NovibetAssignment4HomeO7PollingO7RequestV", "Bool"]
+- ["17NovibetAssignment4HomeO10UpdateDataO7RequestV", "Int"]
+- ["17NovibetAssignment4HomeO14ScrollHeadlineO7RequestV", "enable"]
+- ["17NovibetAssignment4HomeO7PollingO7RequestV", "enable"]
+- ["17NovibetAssignment4HomeO0C5ErrorO7RequestV", "init"]
+- ["17NovibetAssignment4HomeO10UpdateDataO7RequestV", "init"]
+- ["17NovibetAssignment4HomeO14ScrollHeadlineO7RequestV", "init"]
+- ["17NovibetAssignment4HomeO5GamesO7RequestV", "init"]
+- ["17NovibetAssignment4HomeO7PollingO7RequestV", "init"]
+- ["17NovibetAssignment4HomeO9HeadlinesO7RequestV", "init"]
+- ["17NovibetAssignment4HomeO10UpdateDataO7RequestV", "updateTimeInterval"]
+- ["17NovibetAssignment4HomeO5GamesO8ResponseV", "Bool"]
+- ["17NovibetAssignment4HomeO9HeadlinesO8ResponseV", "Bool"]
+- ["17NovibetAssignment4HomeO0C5ErrorO8ResponseV", "Error"]
+- ["17NovibetAssignment4HomeO5GamesO8ResponseV", "Game"]
+- ["17NovibetAssignment4HomeO9HeadlinesO8ResponseV", "Headline"]
+- ["17NovibetAssignment4HomeO0C5ErrorO8ResponseV", "error"]
+- ["17NovibetAssignment4HomeO5GamesO8ResponseV", "games"]
+- ["17NovibetAssignment4HomeO9HeadlinesO8ResponseV", "headlines"]
+- ["17NovibetAssignment4HomeO0C5ErrorO8ResponseV", "init"]
+- ["17NovibetAssignment4HomeO10UpdateDataO8ResponseV", "init"]
+- ["17NovibetAssignment4HomeO14ScrollHeadlineO8ResponseV", "init"]
+- ["17NovibetAssignment4HomeO5GamesO8ResponseV", "init"]
+- ["17NovibetAssignment4HomeO7PollingO8ResponseV", "init"]
+- ["17NovibetAssignment4HomeO9HeadlinesO8ResponseV", "init"]
+- ["17NovibetAssignment4HomeO5GamesO8ResponseV", "startPolling"]
+- ["17NovibetAssignment4HomeO9HeadlinesO8ResponseV", "startPolling"]
+- ["17NovibetAssignment4HomeO9HeadlinesO8ResponseV", "startScrolling"]
+- ["17NovibetAssignment4HomeO14ScrollHeadlineO", "Bool"]
+- ["17NovibetAssignment4HomeO14ScrollHeadlineO", "Request"]
+- ["17NovibetAssignment4HomeO14ScrollHeadlineO", "Response"]
+- ["17NovibetAssignment4HomeO14ScrollHeadlineO", "ViewModel"]
+- ["17NovibetAssignment4HomeO10UpdateDataO", "Int"]
+- ["17NovibetAssignment4HomeO10UpdateDataO", "Request"]
+- ["17NovibetAssignment4HomeO10UpdateDataO", "Response"]
+- ["17NovibetAssignment4HomeO10UpdateDataO", "ViewModel"]
+- ["17NovibetAssignment4HomeO5GamesO9ViewModelV", "Game"]
+- ["17NovibetAssignment4HomeO9HeadlinesO9ViewModelV", "Headline"]
+- ["17NovibetAssignment4HomeO0C5ErrorO9ViewModelV", "String"]
+- ["17NovibetAssignment4HomeO5GamesO9ViewModelV", "games"]
+- ["17NovibetAssignment4HomeO9HeadlinesO9ViewModelV", "headlines"]
+- ["17NovibetAssignment4HomeO0C5ErrorO9ViewModelV", "init"]
+- ["17NovibetAssignment4HomeO10UpdateDataO9ViewModelV", "init"]
+- ["17NovibetAssignment4HomeO14ScrollHeadlineO9ViewModelV", "init"]
+- ["17NovibetAssignment4HomeO5GamesO9ViewModelV", "init"]
+- ["17NovibetAssignment4HomeO7PollingO9ViewModelV", "init"]
+- ["17NovibetAssignment4HomeO9HeadlinesO9ViewModelV", "init"]
+- ["17NovibetAssignment4HomeO0C5ErrorO9ViewModelV", "message"]
+- ["17NovibetAssignment4HomeO0C5ErrorO9ViewModelV", "title"]
+depends-nominal:
+- "17NovibetAssignment4HomeO5GamesO"
+- "17NovibetAssignment4HomeO9HeadlinesO"
+- "17NovibetAssignment4HomeO"
+- "17NovibetAssignment4HomeO0C5ErrorO"
+- "17NovibetAssignment4HomeO7PollingO"
+- "17NovibetAssignment4HomeO14ScrollHeadlineO7RequestV"
+- "17NovibetAssignment4HomeO7PollingO7RequestV"
+- "17NovibetAssignment4HomeO10UpdateDataO7RequestV"
+- "17NovibetAssignment4HomeO14ScrollHeadlineO7RequestV"
+- "17NovibetAssignment4HomeO7PollingO7RequestV"
+- "17NovibetAssignment4HomeO0C5ErrorO7RequestV"
+- "17NovibetAssignment4HomeO10UpdateDataO7RequestV"
+- "17NovibetAssignment4HomeO14ScrollHeadlineO7RequestV"
+- "17NovibetAssignment4HomeO5GamesO7RequestV"
+- "17NovibetAssignment4HomeO7PollingO7RequestV"
+- "17NovibetAssignment4HomeO9HeadlinesO7RequestV"
+- "17NovibetAssignment4HomeO10UpdateDataO7RequestV"
+- "17NovibetAssignment4HomeO5GamesO8ResponseV"
+- "17NovibetAssignment4HomeO9HeadlinesO8ResponseV"
+- "17NovibetAssignment4HomeO0C5ErrorO8ResponseV"
+- "17NovibetAssignment4HomeO5GamesO8ResponseV"
+- "17NovibetAssignment4HomeO9HeadlinesO8ResponseV"
+- "17NovibetAssignment4HomeO0C5ErrorO8ResponseV"
+- "17NovibetAssignment4HomeO5GamesO8ResponseV"
+- "17NovibetAssignment4HomeO9HeadlinesO8ResponseV"
+- "17NovibetAssignment4HomeO0C5ErrorO8ResponseV"
+- "17NovibetAssignment4HomeO10UpdateDataO8ResponseV"
+- "17NovibetAssignment4HomeO14ScrollHeadlineO8ResponseV"
+- "17NovibetAssignment4HomeO5GamesO8ResponseV"
+- "17NovibetAssignment4HomeO7PollingO8ResponseV"
+- "17NovibetAssignment4HomeO9HeadlinesO8ResponseV"
+- "17NovibetAssignment4HomeO5GamesO8ResponseV"
+- "17NovibetAssignment4HomeO9HeadlinesO8ResponseV"
+- "17NovibetAssignment4HomeO14ScrollHeadlineO"
+- "17NovibetAssignment4HomeO10UpdateDataO"
+- "17NovibetAssignment4HomeO5GamesO9ViewModelV"
+- "17NovibetAssignment4HomeO9HeadlinesO9ViewModelV"
+- "17NovibetAssignment4HomeO0C5ErrorO9ViewModelV"
+- "17NovibetAssignment4HomeO5GamesO9ViewModelV"
+- "17NovibetAssignment4HomeO9HeadlinesO9ViewModelV"
+- "17NovibetAssignment4HomeO0C5ErrorO9ViewModelV"
+- "17NovibetAssignment4HomeO10UpdateDataO9ViewModelV"
+- "17NovibetAssignment4HomeO14ScrollHeadlineO9ViewModelV"
+- "17NovibetAssignment4HomeO5GamesO9ViewModelV"
+- "17NovibetAssignment4HomeO7PollingO9ViewModelV"
+- "17NovibetAssignment4HomeO9HeadlinesO9ViewModelV"
+- "17NovibetAssignment4HomeO0C5ErrorO9ViewModelV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ccbed29d5892819849c4fe972d78e1cc"

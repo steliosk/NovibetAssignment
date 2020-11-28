@@ -1,0 +1,114 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HomePresentationLogic"
+- "HomePresenter"
+provides-nominal:
+- "17NovibetAssignment21HomePresentationLogicP"
+- "17NovibetAssignment13HomePresenterC"
+provides-member:
+- ["17NovibetAssignment21HomePresentationLogicP", ""]
+- ["17NovibetAssignment13HomePresenterC", ""]
+provides-dynamic-lookup:
+- "presentError"
+- "presentGames"
+- "presentHeadlines"
+- "presentNextHeadline"
+- "viewController"
+depends-top-level:
+- "Home"
+- "HomeDisplayLogic"
+- "HomePresentationLogic"
+- "HomePresenter"
+- !private "StringLiteralType"
+- !private "viewController"
+depends-member:
+- !private ["s5ErrorP", "localizedDescription"]
+- ["17NovibetAssignment4HomeO5GamesO", "Response"]
+- !private ["17NovibetAssignment4HomeO5GamesO", "ViewModel"]
+- ["17NovibetAssignment4HomeO9HeadlinesO", "Response"]
+- !private ["17NovibetAssignment4HomeO9HeadlinesO", "ViewModel"]
+- ["17NovibetAssignment4HomeO", "Games"]
+- ["17NovibetAssignment4HomeO", "Headlines"]
+- ["17NovibetAssignment4HomeO", "HomeError"]
+- ["17NovibetAssignment4HomeO", "ScrollHeadline"]
+- !private ["17NovibetAssignment16HomeDisplayLogicP", "displayError"]
+- !private ["17NovibetAssignment16HomeDisplayLogicP", "displayGames"]
+- !private ["17NovibetAssignment16HomeDisplayLogicP", "displayHeadlines"]
+- !private ["17NovibetAssignment16HomeDisplayLogicP", "displayNextHeadline"]
+- ["17NovibetAssignment4HomeO0C5ErrorO", "Response"]
+- !private ["17NovibetAssignment4HomeO0C5ErrorO", "ViewModel"]
+- ["17NovibetAssignment21HomePresentationLogicP", "Home"]
+- ["17NovibetAssignment21HomePresentationLogicP", ""]
+- ["17NovibetAssignment21HomePresentationLogicP", "presentError"]
+- ["17NovibetAssignment21HomePresentationLogicP", "presentGames"]
+- ["17NovibetAssignment21HomePresentationLogicP", "presentHeadlines"]
+- ["17NovibetAssignment21HomePresentationLogicP", "presentNextHeadline"]
+- !private ["17NovibetAssignment21HomePresentationLogicP", "viewController"]
+- ["17NovibetAssignment13HomePresenterC", "Home"]
+- ["17NovibetAssignment13HomePresenterC", "HomeDisplayLogic"]
+- ["17NovibetAssignment13HomePresenterC", "deinit"]
+- ["17NovibetAssignment13HomePresenterC", "init"]
+- ["17NovibetAssignment13HomePresenterC", "presentError"]
+- ["17NovibetAssignment13HomePresenterC", "presentGames"]
+- ["17NovibetAssignment13HomePresenterC", "presentHeadlines"]
+- ["17NovibetAssignment13HomePresenterC", "presentNextHeadline"]
+- ["17NovibetAssignment13HomePresenterC", "viewController"]
+- !private ["17NovibetAssignment4HomeO0C5ErrorO8ResponseV", "error"]
+- !private ["17NovibetAssignment4HomeO5GamesO8ResponseV", "games"]
+- !private ["17NovibetAssignment4HomeO9HeadlinesO8ResponseV", "headlines"]
+- ["17NovibetAssignment4HomeO14ScrollHeadlineO", "Response"]
+- !private ["17NovibetAssignment4HomeO14ScrollHeadlineO", "ViewModel"]
+- !private ["17NovibetAssignment4HomeO0C5ErrorO9ViewModelV", "init"]
+- !private ["17NovibetAssignment4HomeO14ScrollHeadlineO9ViewModelV", "init"]
+- !private ["17NovibetAssignment4HomeO5GamesO9ViewModelV", "init"]
+- !private ["17NovibetAssignment4HomeO9HeadlinesO9ViewModelV", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- !private "s5ErrorP"
+- "17NovibetAssignment4HomeO5GamesO"
+- "17NovibetAssignment4HomeO9HeadlinesO"
+- "17NovibetAssignment4HomeO"
+- !private "17NovibetAssignment16HomeDisplayLogicP"
+- "17NovibetAssignment4HomeO0C5ErrorO"
+- "17NovibetAssignment21HomePresentationLogicP"
+- "17NovibetAssignment13HomePresenterC"
+- !private "17NovibetAssignment4HomeO0C5ErrorO8ResponseV"
+- !private "17NovibetAssignment4HomeO5GamesO8ResponseV"
+- !private "17NovibetAssignment4HomeO9HeadlinesO8ResponseV"
+- "17NovibetAssignment4HomeO14ScrollHeadlineO"
+- !private "17NovibetAssignment4HomeO0C5ErrorO9ViewModelV"
+- !private "17NovibetAssignment4HomeO14ScrollHeadlineO9ViewModelV"
+- !private "17NovibetAssignment4HomeO5GamesO9ViewModelV"
+- !private "17NovibetAssignment4HomeO9HeadlinesO9ViewModelV"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "292e9e1a998f71b64d7d62683e87a4bb"
