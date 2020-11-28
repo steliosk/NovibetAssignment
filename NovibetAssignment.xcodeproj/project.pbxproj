@@ -30,7 +30,6 @@
 		FD816D9A257181B900E1EDE9 /* GamesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D99257181B900E1EDE9 /* GamesAPI.swift */; };
 		FD816DA02571836200E1EDE9 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D9F2571836200E1EDE9 /* LoginService.swift */; };
 		FD816DAF2571841100E1EDE9 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DA92571841100E1EDE9 /* LoginPresenter.swift */; };
-		FD816DB02571841100E1EDE9 /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DAA2571841100E1EDE9 /* LoginWorker.swift */; };
 		FD816DB12571841100E1EDE9 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DAB2571841100E1EDE9 /* LoginRouter.swift */; };
 		FD816DB22571841100E1EDE9 /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DAC2571841100E1EDE9 /* LoginModels.swift */; };
 		FD816DB32571841100E1EDE9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816DAD2571841100E1EDE9 /* LoginViewController.swift */; };
@@ -53,6 +52,7 @@
 		FD816E2C25725DC800E1EDE9 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816E2B25725DC800E1EDE9 /* GameTableViewCell.swift */; };
 		FD816E3125725DD900E1EDE9 /* HeadlineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816E3025725DD900E1EDE9 /* HeadlineCollectionViewCell.swift */; };
 		FD816E3625725F3800E1EDE9 /* Class+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816E3525725F3800E1EDE9 /* Class+Name.swift */; };
+		FDD225372572F73B008F52A5 /* CenteredCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD225362572F73B008F52A5 /* CenteredCollectionLayout.swift */; };
 		FDD4FDE92572BBAB00942611 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4FDE82572BBAB00942611 /* RoundedView.swift */; };
 		FDD4FDF12572BC5A00942611 /* UIView+AppAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4FDF02572BC5A00942611 /* UIView+AppAdditions.swift */; };
 /* End PBXBuildFile section */
@@ -104,7 +104,6 @@
 		FD816D99257181B900E1EDE9 /* GamesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesAPI.swift; sourceTree = "<group>"; };
 		FD816D9F2571836200E1EDE9 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		FD816DA92571841100E1EDE9 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
-		FD816DAA2571841100E1EDE9 /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
 		FD816DAB2571841100E1EDE9 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
 		FD816DAC2571841100E1EDE9 /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
 		FD816DAD2571841100E1EDE9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +126,7 @@
 		FD816E2B25725DC800E1EDE9 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
 		FD816E3025725DD900E1EDE9 /* HeadlineCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineCollectionViewCell.swift; sourceTree = "<group>"; };
 		FD816E3525725F3800E1EDE9 /* Class+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Class+Name.swift"; sourceTree = "<group>"; };
+		FDD225362572F73B008F52A5 /* CenteredCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredCollectionLayout.swift; sourceTree = "<group>"; };
 		FDD4FDE82572BBAB00942611 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		FDD4FDF02572BC5A00942611 /* UIView+AppAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AppAdditions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -309,7 +309,6 @@
 				FD816DAD2571841100E1EDE9 /* LoginViewController.swift */,
 				FD816DAE2571841100E1EDE9 /* LoginInteractor.swift */,
 				FD816DA92571841100E1EDE9 /* LoginPresenter.swift */,
-				FD816DAA2571841100E1EDE9 /* LoginWorker.swift */,
 				FD816DAC2571841100E1EDE9 /* LoginModels.swift */,
 				FD816DAB2571841100E1EDE9 /* LoginRouter.swift */,
 			);
@@ -388,6 +387,7 @@
 			isa = PBXGroup;
 			children = (
 				FDD4FDE82572BBAB00942611 /* RoundedView.swift */,
+				FDD225362572F73B008F52A5 /* CenteredCollectionLayout.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -536,6 +536,7 @@
 				FD1D8F982572CAB000EBE877 /* GamesResponse.swift in Sources */,
 				FD816DB22571841100E1EDE9 /* LoginModels.swift in Sources */,
 				FD816D4E2571784800E1EDE9 /* APIEnvironment.swift in Sources */,
+				FDD225372572F73B008F52A5 /* CenteredCollectionLayout.swift in Sources */,
 				FD816DD42571887A00E1EDE9 /* HomeInteractor.swift in Sources */,
 				FD816D7F25717CD600E1EDE9 /* LoginAPI.swift in Sources */,
 				FD816D9A257181B900E1EDE9 /* GamesAPI.swift in Sources */,
@@ -556,7 +557,6 @@
 				FD816DD02571887A00E1EDE9 /* HomeWorker.swift in Sources */,
 				FD816DD32571887A00E1EDE9 /* HomeViewController.swift in Sources */,
 				FD816DD22571887A00E1EDE9 /* HomeModels.swift in Sources */,
-				FD816DB02571841100E1EDE9 /* LoginWorker.swift in Sources */,
 				FD816E05257193F400E1EDE9 /* HeadlinesResponse.swift in Sources */,
 				FDD4FDE92572BBAB00942611 /* RoundedView.swift in Sources */,
 				FD816E3625725F3800E1EDE9 /* Class+Name.swift in Sources */,
