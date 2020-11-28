@@ -12,15 +12,11 @@ protocol LoginBusinessLogic {
     func login(request: Login.Login.Request)
 }
 
-protocol LoginDataStore {
-
-}
-
-class LoginInteractor: LoginBusinessLogic, LoginDataStore {
+class LoginInteractor: LoginBusinessLogic {
     var presenter: LoginPresentationLogic?
     let loginService = LoginService()
     
-    // MARK: - Do something
+    // MARK: - BusinessLogic
     
     func login(request: Login.Login.Request) {
         guard let firstName = request.firstName,

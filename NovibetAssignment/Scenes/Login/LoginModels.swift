@@ -10,6 +10,8 @@ import UIKit
 
 enum Login {
         
+    // MARK: - Use cases
+    
     enum Login {
         struct Request {
             var firstName: String?

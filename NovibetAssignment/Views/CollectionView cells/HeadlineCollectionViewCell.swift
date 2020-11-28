@@ -9,9 +9,13 @@ import UIKit
 
 class HeadlineCollectionViewCell: UICollectionViewCell {
     
+    // MARK: - IBOutlets
+    
     @IBOutlet weak var firstCompetitorLabel: UILabel!
     @IBOutlet weak var secondCompetitorLabel: UILabel!
     @IBOutlet weak var startTimeLabel: UILabel!
+    
+    // MARK: - Configure
     
     func configure(headline: Headline?) {
         firstCompetitorLabel.text = headline?.competitor1Caption

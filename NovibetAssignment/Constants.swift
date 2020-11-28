@@ -10,5 +10,4 @@ import Foundation
 class Constants {
     static var type = "USER_TYPE"
     static var token = "USER_TOKEN"
-    
 }

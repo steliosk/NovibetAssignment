@@ -12,13 +12,8 @@ import UIKit
     func routeToHome()
 }
 
-protocol LoginDataPassing {
-    var dataStore: LoginDataStore? { get }
-}
-
-class LoginRouter: NSObject, LoginRoutingLogic, LoginDataPassing {
+class LoginRouter: NSObject, LoginRoutingLogic {
     weak var viewController: LoginViewController?
-    var dataStore: LoginDataStore?
     
     // MARK: - Routing
     

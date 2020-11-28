@@ -72,6 +72,8 @@ class HomeWorker {
         }
     }
     
+    // MARK: - Parsing
+    
     private func parse(gamesResponses: [GamesResponse]) -> [Game]? {
         guard let competitions = gamesResponses.first?.betViews?.first?.competitions else {
             return nil

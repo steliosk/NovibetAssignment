@@ -15,11 +15,7 @@ protocol HomeBusinessLogic {
     func requestHeadlineScrolling(request: Home.ScrollHeadline.Request)
 }
 
-protocol HomeDataStore {
-
-}
-
-class HomeInteractor: HomeBusinessLogic, HomeDataStore {
+class HomeInteractor: HomeBusinessLogic {
     var presenter: HomePresentationLogic?
     var worker = HomeWorker()
     var scrollTimer: Timer?
@@ -65,11 +61,13 @@ class HomeInteractor: HomeBusinessLogic, HomeDataStore {
     
     func requestHeadlineScrolling(request: Home.ScrollHeadline.Request) {
         if request.enable {
-            startScrolling()
+            startScrollingHeadlines()
         } else {
-            stopScrolling()
+            stopScrollingHeadlines()
         }
     }
+    
+    // MARK: - Updated items
     
     private func requestUpdatedHeadlines() {
         worker.fetchUpdatedHeadlines(completion: { (result) in
@@ -77,7 +75,11 @@ class HomeInteractor: HomeBusinessLogic, HomeDataStore {
             case .success(let headlines):
                 let response = Home.Headlines.Response(headlines: headlines)
                 self.presenter?.presentHeadlines(response: response)
-                self.startScrolling()
+                if (headlines?.count ?? 0) > 1 {
+                    self.startScrollingHeadlines()
+                } else {
+                    self.stopScrollingHeadlines()
+                }
             case .failure(let error):
                 let response = Home.HomeError.Response(error: error)
                 self.presenter?.presentError(respone: response)
@@ -85,7 +87,7 @@ class HomeInteractor: HomeBusinessLogic, HomeDataStore {
         })
     }
     
-    func requestUpdatedGames() {
+    private func requestUpdatedGames() {
         worker.fetchUpdatedGames(completion: { (result) in
             switch result {
             case .success(let games):
@@ -98,7 +100,9 @@ class HomeInteractor: HomeBusinessLogic, HomeDataStore {
         })
     }
     
-    private func startScrolling() {
+    // MARK: - Timers
+    
+    private func startScrollingHeadlines() {
         guard !(scrollTimer?.isValid ?? false) else {
             return
         }
@@ -108,7 +112,7 @@ class HomeInteractor: HomeBusinessLogic, HomeDataStore {
         })
     }
     
-    private func stopScrolling() {
+    private func stopScrollingHeadlines() {
         scrollTimer?.invalidate()
     }
     

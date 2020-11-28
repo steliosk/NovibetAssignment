@@ -15,7 +15,7 @@ protocol LoginDisplayLogic: class {
 
 class LoginViewController: UIViewController, LoginDisplayLogic {
     var interactor: LoginBusinessLogic?
-    var router: (NSObjectProtocol & LoginRoutingLogic & LoginDataPassing)?
+    var router: (NSObjectProtocol & LoginRoutingLogic)?
     
     // MARK: - Object lifecycle
     
@@ -41,23 +41,16 @@ class LoginViewController: UIViewController, LoginDisplayLogic {
         interactor.presenter = presenter
         presenter.viewController = viewController
         router.viewController = viewController
-        router.dataStore = interactor
     }
-    
-    // MARK: - Configuration
-    
-    private func configure() {
-        
-    }
-    
+
     // MARK: - View lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        configure()
     }
     
     // MARK: - Login
+    
     @IBOutlet weak var firstNameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
     

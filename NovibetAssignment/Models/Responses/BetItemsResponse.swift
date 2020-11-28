@@ -101,9 +101,9 @@ struct LiveData: Decodable {
     var sportradarMatchId: UInt64?
     var supportsAchievements: Bool?
     var supportsActions: Bool?
-        var timeToNextPhase: String?
-        var timeToNextPhaseSeconds: Double??
-        var timeline: String?
+    var timeToNextPhase: String?
+    var timeToNextPhaseSeconds: Double??
+    var timeline: String?
 }
 
 struct QuarterScore: Decodable {

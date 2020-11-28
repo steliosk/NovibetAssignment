@@ -37,16 +37,6 @@ enum Home {
         }
     }
     
-    enum UpdateData {
-        struct Request {
-            var updateTimeInterval: Int?
-        }
-        struct Response {
-        }
-        struct ViewModel {
-        }
-    }
-    
     enum Polling {
         struct Request {
             var enable: Bool

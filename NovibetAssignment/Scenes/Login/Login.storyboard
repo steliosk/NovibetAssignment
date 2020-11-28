@@ -22,7 +22,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="vbv-zv-wcK"/>
                                 </constraints>
-                                <state key="normal" title="Login"/>
+                                <state key="normal" title="Σύνδεση"/>
                                 <connections>
                                     <action selector="loginButtonTapped:" destination="Nk8-Io-npF" eventType="touchUpInside" id="5gc-N2-l5W"/>
                                 </connections>
