@@ -66,5 +66,15 @@ class GameTableViewCell: UITableViewCell {
         })
         elapsedTimer?.fire()
     }
+    
+    func stopElapsedTimer() {
+        elapsedTimer?.invalidate()
+    }
+    
+    // MARK: - Lifecycle
+    
+    deinit {
+        stopElapsedTimer()
+    }
 
 }

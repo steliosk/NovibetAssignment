@@ -12,14 +12,13 @@ class HeadlineTableViewCell: UITableViewCell {
     // MARK: - Variables
     
     var headlines: [Headline]?
-    var collectionFlowlayout = YourCollectionLayoutSubclass()
+    var collectionFlowlayout = CenteredCollectionLayout()
     
     // MARK: - IBOutles
     
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var headlinesCollectionView: UICollectionView!
     @IBOutlet weak var pageControlLeadingConstraint: NSLayoutConstraint!
-    @IBOutlet weak var collectionViewHeightConstraint: NSLayoutConstraint!
     
     // MARK: - Actions
     
@@ -37,11 +36,12 @@ class HeadlineTableViewCell: UITableViewCell {
     
     func configure(headlines: [Headline]?) {
         setup()
-        addObserver()
         pageControl.numberOfPages = headlines?.count ?? 0
         self.headlines = headlines
         headlinesCollectionView.reloadData()
     }
+    
+    // MARK: - Setup
     
     func setup() {
         if #available(iOS 14.0, *) {
@@ -53,43 +53,14 @@ class HeadlineTableViewCell: UITableViewCell {
         headlinesCollectionView.isPagingEnabled = false
         headlinesCollectionView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         collectionFlowlayout.scrollDirection = .horizontal
-        collectionFlowlayout.itemSize = CGSize(width: headlinesCollectionView.frame.size.width  , height: collectionViewHeightConstraint.constant)
+        collectionFlowlayout.itemSize = CGSize(width: headlinesCollectionView.frame.size.width  , height: 80)
         collectionFlowlayout.minimumLineSpacing = CGFloat(space)
         headlinesCollectionView.collectionViewLayout = collectionFlowlayout
     }
     
-    // MARK: - Update
-    
-    func updateViewDimensions() {
-        collectionViewHeightConstraint.constant = headlinesCollectionView.contentSize.height
-    }
-    
-    func addObserver() {
-        headlinesCollectionView.addObserver(self, forKeyPath: "contentSize", options: .new, context: nil)
-    }
-    
-    // MARK: - Observers
-    
-    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey: Any]?, context: UnsafeMutableRawPointer?) {
-        if let obj = object as? UICollectionView {
-            if obj == headlinesCollectionView && keyPath == "contentSize" {
-                updateViewDimensions()
-            }
-        }
-    }
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }
+
+// MARK: - UICollectionViewDataSource
 
 extension HeadlineTableViewCell: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -103,6 +74,8 @@ extension HeadlineTableViewCell: UICollectionViewDataSource {
     }
     
 }
+
+// MARK: - UICollectionViewDelegate
 
 extension HeadlineTableViewCell: UICollectionViewDelegate {
     
