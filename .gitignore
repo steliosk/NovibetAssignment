@@ -1,0 +1,5 @@
+
+*.xcactivitylog
+Build/
+DerivedData/
+*.xcbkptlist
