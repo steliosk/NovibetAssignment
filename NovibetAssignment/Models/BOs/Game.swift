@@ -12,7 +12,7 @@ struct Game: Decodable {
     var competitor2: String?
     var elapsed: String?
     
-    init(event: Event?) {
+    init(event: SportEvent?) {
         competitor1 = event?.additionalCaptions?.competitor1
         competitor2 = event?.additionalCaptions?.competitor2
         elapsed = event?.liveData?.elapsed

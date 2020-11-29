@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct GamesResponse: BetItemsResponse {
+struct GamesResponse: BetViewsResponse {
     var betViews: [BetView]?
     var caption: String?
     var hasHighlights: Bool?
