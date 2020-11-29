@@ -21,6 +21,8 @@ class HomeInteractor: HomeBusinessLogic {
     var scrollTimer: Timer?
     var pollingTimer: Timer?
     
+    let pollingTimeInterval: TimeInterval = 2
+    let healineScrollingTimeInterval: TimeInterval = 5
     // MARK: - Business logic
     
     func requestHeadlines(request: Home.Headlines.Request) {
@@ -106,7 +108,7 @@ class HomeInteractor: HomeBusinessLogic {
         guard !(scrollTimer?.isValid ?? false) else {
             return
         }
-        scrollTimer = Timer.scheduledTimer(withTimeInterval: 5, repeats: true, block: { (timer) in
+        scrollTimer = Timer.scheduledTimer(withTimeInterval: healineScrollingTimeInterval, repeats: true, block: { (timer) in
             let response = Home.ScrollHeadline.Response()
             self.presenter?.presentNextHeadline(respone: response)
         })
@@ -120,7 +122,7 @@ class HomeInteractor: HomeBusinessLogic {
         guard !(pollingTimer?.isValid ?? false) else {
             return
         }
-        pollingTimer = Timer.scheduledTimer(withTimeInterval: 2, repeats: true, block: { (timer) in
+        pollingTimer = Timer.scheduledTimer(withTimeInterval: pollingTimeInterval, repeats: true, block: { (timer) in
             self.requestUpdatedHeadlines()
             self.requestUpdatedGames()
         })
