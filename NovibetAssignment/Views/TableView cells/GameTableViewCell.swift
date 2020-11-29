@@ -42,7 +42,7 @@ class GameTableViewCell: UITableViewCell {
     
     func updateElapsedTime() {
         guard let date = elapsedDate else {
-            elapsedTimeLabel.text = "Ν/Α"
+            elapsedTimeLabel.text = "--"
             return
         }
         let calendar = Calendar.current

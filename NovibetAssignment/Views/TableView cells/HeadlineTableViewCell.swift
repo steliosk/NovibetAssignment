@@ -12,13 +12,14 @@ class HeadlineTableViewCell: UITableViewCell {
     // MARK: - Variables
     
     var headlines: [Headline]?
-    var collectionFlowlayout = CenteredCollectionLayout()
+    var collectionFlowlayout = CenteredCollectionViewFlowLayout()
     
     // MARK: - IBOutles
     
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var headlinesCollectionView: UICollectionView!
     @IBOutlet weak var pageControlLeadingConstraint: NSLayoutConstraint!
+    @IBOutlet weak var headlinesCollectionViewHeightConstraint: NSLayoutConstraint!
     
     // MARK: - Actions
     
@@ -47,14 +48,13 @@ class HeadlineTableViewCell: UITableViewCell {
         if #available(iOS 14.0, *) {
             pageControlLeadingConstraint.constant = -22
         }
-        let space = 0.0
         headlinesCollectionView.dataSource = self
         headlinesCollectionView.delegate = self
         headlinesCollectionView.isPagingEnabled = false
-        headlinesCollectionView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        headlinesCollectionView.contentInset = UIEdgeInsets.zero
         collectionFlowlayout.scrollDirection = .horizontal
-        collectionFlowlayout.itemSize = CGSize(width: headlinesCollectionView.frame.size.width  , height: 80)
-        collectionFlowlayout.minimumLineSpacing = CGFloat(space)
+        collectionFlowlayout.itemSize = CGSize(width: headlinesCollectionView.frame.size.width  , height: headlinesCollectionViewHeightConstraint.constant)
+        collectionFlowlayout.minimumLineSpacing = 0
         headlinesCollectionView.collectionViewLayout = collectionFlowlayout
     }
     

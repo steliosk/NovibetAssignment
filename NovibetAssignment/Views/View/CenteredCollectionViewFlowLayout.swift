@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CenteredCollectionLayout: UICollectionViewFlowLayout {
+class CenteredCollectionViewFlowLayout: UICollectionViewFlowLayout {
     
     private var previousOffset: CGFloat = 0
     private var currentPage: Int = 0
