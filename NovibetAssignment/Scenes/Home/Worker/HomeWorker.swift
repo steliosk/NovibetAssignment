@@ -46,11 +46,11 @@ class HomeWorker {
         headlinesService.headlines { (result) in
             switch result {
             case .success(let headlineResponses):
-                guard let games = self.parse(headlineResponses: headlineResponses) else {
+                guard let headlines = self.parse(headlineResponses: headlineResponses) else {
                     completion(.failure(HomeWorkerError.modelParsingError))
                     return
                 }
-                completion(.success(games))
+                completion(.success(headlines))
             case .failure(let error):
                 completion(.failure(error))
             }
@@ -61,11 +61,11 @@ class HomeWorker {
         headlinesService.updatedHeadLines { (result) in
             switch result {
             case .success(let headlineResponses):
-                guard let games = self.parse(headlineResponses: headlineResponses) else {
+                guard let headlines = self.parse(headlineResponses: headlineResponses) else {
                     completion(.failure(HomeWorkerError.modelParsingError))
                     return
                 }
-                completion(.success(games))
+                completion(.success(headlines))
             case .failure(let error):
                 completion(.failure(error))
             }
@@ -75,14 +75,20 @@ class HomeWorker {
     // MARK: - Parsing
     
     private func parse(gamesResponses: [GamesResponse]) -> [Game]? {
-        guard let competitions = gamesResponses.first?.betViews?.first?.competitions else {
+        guard let betViews = gamesResponses.first?.betViews else {
             return nil
         }
         
-        let games = competitions.compactMap { (competition) -> [Game]? in
-            return competition.events?.compactMap({Game(event: $0)})
+        let gamesArraysOfArrays = betViews.compactMap { (betView) -> [Game]? in
+            return betView.competitions?.flatMap { (competition) -> [Game] in
+                guard let events = competition.events else {
+                    return []
+                }
+                return events.compactMap({Game(event: $0)})
+            }
         }
-        return games.flatMap({ $0 })
+
+        return gamesArraysOfArrays.flatMap({$0})
     }
     
     private func parse(headlineResponses: [HeadlinesResponse]) -> [Headline]? {
