@@ -58,7 +58,7 @@ class HomeWorker {
     }
     
     func fetchUpdatedHeadlines(completion: @escaping (Result<[Headline]?,Error>) -> Void) {
-        headlinesService.updatedHeadLines { (result) in
+        headlinesService.updatedHeadlines { (result) in
             switch result {
             case .success(let headlineResponses):
                 guard let headlines = self.parse(headlineResponses: headlineResponses) else {

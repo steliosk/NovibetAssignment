@@ -21,7 +21,7 @@ class HeadlinesService {
         }
     }
     
-    func updatedHeadLines(completion: @escaping (Result<[HeadlinesResponse], NetworkStackError>) -> Void) {
+    func updatedHeadlines(completion: @escaping (Result<[HeadlinesResponse], NetworkStackError>) -> Void) {
         apiClient.request(HeadlinesAPI.updatedHeadlines) { (result: Result<[HeadlinesResponse], NetworkStackError>) in
             switch result {
             case .success(let headlinesResponse):
