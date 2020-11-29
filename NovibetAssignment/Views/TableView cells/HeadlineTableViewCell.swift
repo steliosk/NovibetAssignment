@@ -46,7 +46,7 @@ class HeadlineTableViewCell: UITableViewCell {
     
     func setup() {
         if #available(iOS 14.0, *) {
-            pageControlLeadingConstraint.constant = -22
+            pageControlLeadingConstraint.constant = -24
         }
         headlinesCollectionView.dataSource = self
         headlinesCollectionView.delegate = self
