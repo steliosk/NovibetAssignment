@@ -54,6 +54,9 @@ class HomeViewController: UIViewController, HomeDisplayLogic, UITableViewDataSou
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey: Any]?, context: UnsafeMutableRawPointer?) {
         if let obj = object as? UITableView {
             if obj == tableView && keyPath == "contentSize" {
+                if tableView.contentSize.height <= tableView.frame.size.height && !tableView.visibleCells.isEmpty{
+                    tableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: .top, animated: true)
+                }
                 tableView.isScrollEnabled = tableView.contentSize.height > tableView.frame.size.height
             }
         }
