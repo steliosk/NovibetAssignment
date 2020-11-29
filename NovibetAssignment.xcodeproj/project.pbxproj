@@ -19,6 +19,7 @@
 		FD3850562573A95300999EF8 /* AdditionalCaptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3850552573A95300999EF8 /* AdditionalCaptions.swift */; };
 		FD38505B2573A96600999EF8 /* LiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38505A2573A96600999EF8 /* LiveData.swift */; };
 		FD3850602573A97500999EF8 /* QuarterScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38505F2573A97500999EF8 /* QuarterScore.swift */; };
+		FD3850692573B30300999EF8 /* HomeWorkerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3850682573B30300999EF8 /* HomeWorkerError.swift */; };
 		FD816D0C257177B100E1EDE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD816D0B257177B100E1EDE9 /* AppDelegate.swift */; };
 		FD816D15257177B400E1EDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD816D14257177B400E1EDE9 /* Assets.xcassets */; };
 		FD816D18257177B400E1EDE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD816D16257177B400E1EDE9 /* LaunchScreen.storyboard */; };
@@ -96,6 +97,7 @@
 		FD3850552573A95300999EF8 /* AdditionalCaptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalCaptions.swift; sourceTree = "<group>"; };
 		FD38505A2573A96600999EF8 /* LiveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveData.swift; sourceTree = "<group>"; };
 		FD38505F2573A97500999EF8 /* QuarterScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterScore.swift; sourceTree = "<group>"; };
+		FD3850682573B30300999EF8 /* HomeWorkerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkerError.swift; sourceTree = "<group>"; };
 		FD816D08257177B100E1EDE9 /* NovibetAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovibetAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD816D0B257177B100E1EDE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD816D14257177B400E1EDE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -174,6 +176,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD3850672573B2F500999EF8 /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				FD816DCA2571887A00E1EDE9 /* HomeWorker.swift */,
+				FD3850682573B30300999EF8 /* HomeWorkerError.swift */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
 		FD816CFF257177B100E1EDE9 = {
 			isa = PBXGroup;
 			children = (
@@ -327,8 +338,8 @@
 				FD816DAD2571841100E1EDE9 /* LoginViewController.swift */,
 				FD816DAE2571841100E1EDE9 /* LoginInteractor.swift */,
 				FD816DA92571841100E1EDE9 /* LoginPresenter.swift */,
-				FD816DAC2571841100E1EDE9 /* LoginModels.swift */,
 				FD816DAB2571841100E1EDE9 /* LoginRouter.swift */,
+				FD816DAC2571841100E1EDE9 /* LoginModels.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -340,7 +351,7 @@
 				FD816DCD2571887A00E1EDE9 /* HomeViewController.swift */,
 				FD816DCE2571887A00E1EDE9 /* HomeInteractor.swift */,
 				FD816DC92571887A00E1EDE9 /* HomePresenter.swift */,
-				FD816DCA2571887A00E1EDE9 /* HomeWorker.swift */,
+				FD3850672573B2F500999EF8 /* Worker */,
 				FD816DCC2571887A00E1EDE9 /* HomeModels.swift */,
 			);
 			path = Home;
@@ -559,6 +570,7 @@
 				FD816D6C25717B1500E1EDE9 /* JSONParser.swift in Sources */,
 				FD816DAF2571841100E1EDE9 /* LoginPresenter.swift in Sources */,
 				FD38504C2573A93100999EF8 /* Market.swift in Sources */,
+				FD3850692573B30300999EF8 /* HomeWorkerError.swift in Sources */,
 				FD816DB12571841100E1EDE9 /* LoginRouter.swift in Sources */,
 				FD816D0C257177B100E1EDE9 /* AppDelegate.swift in Sources */,
 				FD816E2425725DBB00E1EDE9 /* HeadlineTableViewCell.swift in Sources */,

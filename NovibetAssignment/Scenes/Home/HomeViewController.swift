@@ -72,7 +72,7 @@ class HomeViewController: UIViewController, HomeDisplayLogic, UITableViewDataSou
         stopRepeatedProcesses()
     }
     
-    // MARK: - TableView
+    // MARK: - TableView + Datasource
     
     @IBOutlet weak var tableView: UITableView!
     
