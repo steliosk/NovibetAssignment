@@ -46,9 +46,19 @@ class HomeViewController: UIViewController, HomeDisplayLogic, UITableViewDataSou
     
     private func configure() {
         tableView.dataSource = self
+        tableView.addObserver(self, forKeyPath: "contentSize", options: .new, context: nil)
     }
+        
+    // MARK: - Observers
     
-    
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey: Any]?, context: UnsafeMutableRawPointer?) {
+        if let obj = object as? UITableView {
+            if obj == tableView && keyPath == "contentSize" {
+                tableView.isScrollEnabled = tableView.contentSize.height > tableView.frame.size.height
+            }
+        }
+    }
+
     // MARK: - View lifecycle
     
     override func viewDidLoad() {
