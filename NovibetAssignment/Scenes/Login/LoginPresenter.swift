@@ -24,7 +24,7 @@ class LoginPresenter: LoginPresentationLogic {
     }
     
     func presentError(response: Login.LoginError.Response) {
-        let viewModel = Login.LoginError.ViewModel(title: "Error", message: response.error?.localizedDescription)
+        let viewModel = Login.LoginError.ViewModel(title: " Σφάλμα", message: response.error?.localizedDescription)
         viewController?.displayError(viewModel: viewModel)
     }
     

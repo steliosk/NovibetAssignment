@@ -23,7 +23,7 @@ class LoginInteractor: LoginBusinessLogic {
               let lastName = request.lastName,
               !firstName.isEmpty && !lastName.isEmpty
         else {
-            let error = NSError(domain: "Login", code: 0, userInfo: [NSLocalizedDescriptionKey: "Both fields should be filled in order to continue"])
+            let error = NSError(domain: "Σύνδεση", code: 0, userInfo: [NSLocalizedDescriptionKey: "Θα πρέπει να είναι και τα 2 πεδία συμπληρωμένα για να συνεχίσετε"])
             let response = Login.LoginError.Response(error: error)
             self.presenter?.presentError(response: response)
             return
@@ -32,7 +32,7 @@ class LoginInteractor: LoginBusinessLogic {
             switch result {
             case .success(let loginResponse):
                 guard let type = loginResponse.type, let token = loginResponse.token, !type.isEmpty && !token.isEmpty else {
-                    let error = NSError(domain: "Login", code: 0, userInfo: [NSLocalizedDescriptionKey: "Invalid login response"])
+                    let error = NSError(domain: "Σύνδεση", code: 0, userInfo: [NSLocalizedDescriptionKey: "Κάτι πήγε λάθος στην προσπάθεια σύνσδεσης"])
                     let response = Login.LoginError.Response(error: error)
                     self.presenter?.presentError(response: response)
                     return

@@ -17,7 +17,7 @@ class HomeWorker {
             switch result {
             case .success(let gamesResponse):
                 guard let games = self.parse(gamesResponses: gamesResponse) else {
-                    completion(.failure(NSError(domain: "Data nil", code: 0, userInfo: nil)))
+                    completion(.failure(HomeWorkerError.modelParsingError))
                     return
                 }
                 completion(.success(games))
@@ -32,7 +32,7 @@ class HomeWorker {
             switch result {
             case .success(let gamesResponse):
                 guard let games = self.parse(gamesResponses: gamesResponse) else {
-                    completion(.failure(NSError(domain: "Data nil", code: 0, userInfo: nil)))
+                    completion(.failure(HomeWorkerError.modelParsingError))
                     return
                 }
                 completion(.success(games))
@@ -47,7 +47,7 @@ class HomeWorker {
             switch result {
             case .success(let headlineResponses):
                 guard let games = self.parse(headlineResponses: headlineResponses) else {
-                    completion(.failure(NSError(domain: "Data nil", code: 0, userInfo: nil)))
+                    completion(.failure(HomeWorkerError.modelParsingError))
                     return
                 }
                 completion(.success(games))
@@ -62,7 +62,7 @@ class HomeWorker {
             switch result {
             case .success(let headlineResponses):
                 guard let games = self.parse(headlineResponses: headlineResponses) else {
-                    completion(.failure(NSError(domain: "Data nil", code: 0, userInfo: nil)))
+                    completion(.failure(HomeWorkerError.modelParsingError))
                     return
                 }
                 completion(.success(games))

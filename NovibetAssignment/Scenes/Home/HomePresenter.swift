@@ -36,7 +36,7 @@ class HomePresenter: HomePresentationLogic {
     }
     
     func presentError(respone: Home.HomeError.Response) {
-        let viewModel = Home.HomeError.ViewModel(title: "Error", message: respone.error?.localizedDescription)
+        let viewModel = Home.HomeError.ViewModel(title: "Σφάλμα", message: respone.error?.localizedDescription)
         viewController?.displayError(viewModel: viewModel)
     }
 }

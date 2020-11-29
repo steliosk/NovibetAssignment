@@ -20,15 +20,15 @@ extension NetworkStackError: LocalizedError {
     var errorDescription: String? {
         switch self {
         case .noInternetConnection:
-            return "[No internet connection]"
+            return "[Δεν υπάρχει σύνδεση στο διαδίκτυο]"
         case .invalidRequestObject:
-            return "[Invalid request object]"
+            return "[Ελλιπής κλήση]"
         case .invalidResponseStatusCode(let statusCode):
-            return "[Invalid response status code (\(statusCode))]"
+            return "[Λανθασμένος κωδικός απάντησης HTTP (\(statusCode))]"
         case .requestError(let error):
-            return "[Request error]\n\(error.localizedDescription)"
+            return "[Σφάλμα κλήσης]\n\(error.localizedDescription)"
         case .dataMissing:
-            return "[Data missing]"
+            return "[Ελλιπή δεδομένα]"
         case .parsingError(let error, let data):
             var description = "\(error.localizedDescription)"
             if let data = data, let responseString = String(data: data, encoding: .utf8) {
