@@ -19,16 +19,16 @@ class LoginInteractor: LoginBusinessLogic {
     // MARK: - BusinessLogic
     
     func login(request: Login.Login.Request) {
-        guard let firstName = request.firstName,
-              let lastName = request.lastName,
-              !firstName.isEmpty && !lastName.isEmpty
+        guard let userName = request.userName,
+              let password = request.password,
+              !userName.isEmpty && !password.isEmpty
         else {
             let error = NSError(domain: "Σύνδεση", code: 0, userInfo: [NSLocalizedDescriptionKey: "Θα πρέπει να είναι και τα 2 πεδία συμπληρωμένα για να συνεχίσετε"])
             let response = Login.LoginError.Response(error: error)
             self.presenter?.presentError(response: response)
             return
         }
-        loginService.login(firstName: firstName, lastName: lastName) { (result) in
+        loginService.login(userName: userName, password: password) { (result) in
             switch result {
             case .success(let loginResponse):
                 guard let type = loginResponse.type, let token = loginResponse.token, !type.isEmpty && !token.isEmpty else {

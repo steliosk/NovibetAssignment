@@ -8,7 +8,7 @@
 import Foundation
 
 enum LoginAPI {
-    case login(firstName: String, lastName: String)
+    case login(userName: String, password: String)
 }
 
 extension LoginAPI: EndpointTarget {
@@ -32,9 +32,9 @@ extension LoginAPI: EndpointTarget {
     
     var bodyParameters: [String: Any]? {
         switch self {
-        case .login(let firstName, let lastName):
-            return ["firstName": firstName,
-                    "lastName": lastName]
+        case .login(let username, let password):
+            return ["username": username,
+                    "password": password]
         }
     }
     

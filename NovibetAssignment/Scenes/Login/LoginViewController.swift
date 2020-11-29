@@ -51,15 +51,15 @@ class LoginViewController: UIViewController, LoginDisplayLogic {
     
     // MARK: - Login
     
-    @IBOutlet weak var firstNameTextField: UITextField!
-    @IBOutlet weak var lastNameTextField: UITextField!
+    @IBOutlet weak var userNameTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
     
     @IBAction func loginButtonTapped(_ sender: Any) {
         login()
     }
     
     func login() {
-        let request = Login.Login.Request(firstName: firstNameTextField.text, lastName: lastNameTextField.text)
+        let request = Login.Login.Request(userName: userNameTextField.text, password: passwordTextField.text)
         interactor?.login(request: request)
     }
     
